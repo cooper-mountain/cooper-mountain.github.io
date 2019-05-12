@@ -1,0 +1,94 @@
+{
+  "brews": [
+    {
+      "name": "When Hoppy Met Roasty",
+      "style": "Black IPA",
+      "season": "YEAR-ROUND",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "60"
+        }
+      ],
+      "abv": 6.7,
+      "ibu": 63,
+      "kegs": 0,
+      "description": "A dark IPA with a soft roast profile followed closely by bold, earthy hops. Will please Stout lovers and IPA aficionados alike."
+    },
+    {
+      "name": "Her Majesty’s ESB",
+      "style": "ESB (English Special Bitter)",
+      "season": "YEAR-ROUND",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "60"
+        }
+      ],
+      "abv": 6.0,
+      "ibu": 46,
+      "kegs": 0,
+      "description": "Cooper Mountain Ale Works' special ESB is big on character. Toffee, raisin, and bread flavors from the malt balance perfectly with earthy British hops. A fruity yeast note rounds out this traditional style ale. Brilliant!"
+    },
+    {
+      "name": "Tripel Trouble, y’all",
+      "style": "Belgian Tripel",
+      "season": "YEAR-ROUND",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "85"
+        }
+      ],
+      "abv": 7.8,
+      "ibu": 22,
+      "kegs": 0,
+      "description": "This spicy Belgian ale spends several months cold conditioning to let the flavors meld, but it's worth waiting for. Star anise, orange peel, and coriander are used to add layers of flavor and aroma to this beer. Speaking of extra time, this beer spends 50% longer in the brew kettle to bring out more caramel notes and enhance this beer's natural color."
+    },
+    {
+      "name": "Barrely, barrely, life is but a dream",
+      "style": "Bourbon barrel aged Imperial Strong Ale",
+      "season": "LIMITED",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "120"
+        }
+      ],
+      "abv": 9.5,
+      "ibu": 50,
+      "kegs": 0,
+      "description": "Scaling up our English Strong Ale recipe to 9% was no picnic, but the extensive floor mopping was eventually worth it after a few months in a fantastically wet Buffalo Trace bourbon barrel. Typical oak and vanilla notes blend smoothly into our robust malt profile, finishing with what seems to be a hint of coconut. The magical esters strike again!"
+    },
+    {
+      "name": "Deep Space Mountain",
+      "style": "Bourbon barrel aged Imperial Strong Ale",
+      "season": "LIMITED",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "120"
+        }
+      ],
+      "abv": 9.5,
+      "ibu": 50,
+      "kegs": 0,
+      "description": "Scaling up our English Strong Ale recipe to 9% was no picnic, but the extensive floor mopping was eventually worth it after a few months in a fantastically wet Buffalo Trace bourbon barrel. Typical oak and vanilla notes blend smoothly into our robust malt profile, finishing with what seems to be a hint of coconut. The magical esters strike again!"
+    },
+    {
+      "name": "Stout Scout Stout",
+      "style": "Chocolate Stout",
+      "season": "YEAR-ROUND",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "60"
+        }
+      ],
+      "abv": 5.2,
+      "ibu": 24,
+      "kegs": 0,
+      "description": "Scaling up our English Strong Ale recipe to 9% was no picnic, but the extensive floor mopping was eventually worth it after a few months in a fantastically wet Buffalo Trace bourbon barrel. Typical oak and vanilla notes blend smoothly into our robust malt profile, finishing with what seems to be a hint of coconut. The magical esters strike again!"
+    }
+  ]
+}
