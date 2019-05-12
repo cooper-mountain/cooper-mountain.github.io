@@ -82,12 +82,12 @@ header {
 
 header a.logo {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 430px;
+    height: 430px;
     background: url(../images/logo_inverted.png) no-repeat 0 0;
     background-size: contain;
     z-index: 1;
-    left: calc(50% - 150px);
+    left: calc(50% - 215px);
     top: 30px;
 }
 
@@ -100,27 +100,6 @@ header div.hero {
     top: 150px;
     display: flex;
     background: rgba(0,0,0,.3);
-}
-
-header div.hero::before {
-    content: '&nbsp;';
-}
-
-header div.hero::after {
-    content: '&nbsp;';
-}
-
-header div.hero h1 {
-    text-align: center;
-    flex: 1;
-    line-height: 1em;
-    margin: 0 0 30px 0;
-    color: #fff;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px  1px 0 #000,
-            1px  1px 0 #000;
 }
 
 /* Section - All */
@@ -226,6 +205,15 @@ section.contact > * {
 
 section.contact article {
     padding-left: 40px;
+}
+
+section.contact a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+section.contact a:visited {
+    color: #FFF;
 }
 
 /* Footer */
