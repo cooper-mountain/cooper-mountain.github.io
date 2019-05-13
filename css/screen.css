@@ -157,7 +157,7 @@ section.atmosphere img {
 
 section.atmosphere article {
     min-width: 400px;
-    width: calc(100% - 450px);
+    width: calc(100% - 500px);
     display: inline-block;
     padding-left: 20px;
 }
