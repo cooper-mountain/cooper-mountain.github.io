@@ -144,21 +144,21 @@ section.atmosphere {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-}
-
-section.atmosphere > * {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section.atmosphere img {
-    max-width: 33%;
-    min-width: 400px;
+    max-width: 30%;
+    min-width: 600px;
+
+    flex: 1;
 }
 
 section.atmosphere article {
+    flex: 2;
     min-width: 400px;
-    width: calc(100% - 500px);
-    display: inline-block;
+    width: calc(100% - 450px);
     padding-left: 20px;
 }
 
