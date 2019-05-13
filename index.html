@@ -128,9 +128,8 @@
 			brewDiv.appendChild(description);
 
 			var stats = document.createElement('code');
-			stats.innerText = 'ABV: ' + brew.abv + " | IBU: " + brew.ibu;
+			stats.innerText = 'ABV: ' + brew.abv + " | IBU: " + brew.ibu + ' | Available: ' + brew.season;
 			brewDiv.appendChild(stats);
-
 
 			brewAside.appendChild(brewDiv);
 			document.getElementById('brews').appendChild(brewAside);

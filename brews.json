@@ -3,7 +3,7 @@
     {
       "name": "When Hoppy Met Roasty",
       "style": "Black IPA",
-      "season": "YEAR-ROUND",
+      "season": "Year Round",
       "price": [
         {
           "size": "1/6th bbl",
@@ -18,7 +18,7 @@
     {
       "name": "Her Majesty’s ESB",
       "style": "ESB (English Special Bitter)",
-      "season": "YEAR-ROUND",
+      "season": "Year Round",
       "price": [
         {
           "size": "1/6th bbl",
@@ -33,7 +33,7 @@
     {
       "name": "Tripel Trouble, y’all",
       "style": "Belgian Tripel",
-      "season": "YEAR-ROUND",
+      "season": "Year Round",
       "price": [
         {
           "size": "1/6th bbl",
@@ -48,7 +48,7 @@
     {
       "name": "Barrely, barrely, life is but a dream",
       "style": "Bourbon barrel aged Imperial Strong Ale",
-      "season": "LIMITED",
+      "season": "Limited",
       "price": [
         {
           "size": "1/6th bbl",
@@ -63,7 +63,7 @@
     {
       "name": "Deep Space Mountain",
       "style": "Bourbon barrel aged Imperial Strong Ale",
-      "season": "LIMITED",
+      "season": "Limited",
       "price": [
         {
           "size": "1/6th bbl",
@@ -78,7 +78,7 @@
     {
       "name": "Stout Scout Stout",
       "style": "Chocolate Stout",
-      "season": "YEAR-ROUND",
+      "season": "Year Round",
       "price": [
         {
           "size": "1/6th bbl",

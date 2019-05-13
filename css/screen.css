@@ -172,8 +172,8 @@ section.how-to {
 }
 
 section.how-to aside {
-    width: 350px;
-    max-width: 350px;
+    width: 450px;
+    max-width: 450px;
     flex-grow: 1;
 }
 
