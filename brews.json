@@ -62,7 +62,7 @@
     },
     {
       "name": "Deep Space Mountain",
-      "style": "Bourbon barrel aged Imperial Strong Ale",
+      "style": "Wine Barrel aged Cranberry Stout",
       "season": "Limited",
       "price": [
         {
@@ -70,10 +70,10 @@
           "price": "120"
         }
       ],
-      "abv": 9.5,
-      "ibu": 50,
+      "abv": 8.5,
+      "ibu": 40,
       "kegs": 0,
-      "description": "Scaling up our English Strong Ale recipe to 9% was no picnic, but the extensive floor mopping was eventually worth it after a few months in a fantastically wet Buffalo Trace bourbon barrel. Typical oak and vanilla notes blend smoothly into our robust malt profile, finishing with what seems to be a hint of coconut. The magical esters strike again!"
+      "description": "In collaboration with Deep Space Brewing, we crafted this recipe with a bold red wine barrel finish in our minds from the outset. The cranberries, malts, and even the hops were chosen to blend perfectly into a well rounded Imperial Stout that would hold up to the barrel character as it aged. Waiting patiently (not our strong suit), we emptied the barrel just as it reached perfection."
     },
     {
       "name": "Stout Scout Stout",
