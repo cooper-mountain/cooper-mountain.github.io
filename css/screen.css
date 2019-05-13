@@ -147,10 +147,12 @@ section.atmosphere {
     flex-wrap: wrap;
 }
 
-section.atmosphere img {
+section.atmosphere article.img {
+    background: url('../images/brewery.jpg') no-repeat;
+    background-size: contain;
     max-width: 30%;
     min-width: 600px;
-
+    height: 240px;
     flex: 1;
 }
 
@@ -158,7 +160,6 @@ section.atmosphere article {
     flex: 2;
     min-width: 400px;
     width: calc(100% - 450px);
-    padding-left: 20px;
 }
 
 /** Section - How To */
