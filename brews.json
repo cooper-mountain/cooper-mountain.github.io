@@ -1,6 +1,21 @@
 {
   "brews": [
     {
+      "name": "On The Dubbel!",
+      "style": "Belgian Dubbel",
+      "season": "Seasonal",
+      "price": [
+        {
+          "size": "1/6th bbl",
+          "price": "60"
+        }
+      ],
+      "abv": 0.0,
+      "ibu": 0,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
+    {
       "name": "When Hoppy Met Roasty",
       "style": "Black IPA",
       "season": "Year Round",
