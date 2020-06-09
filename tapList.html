@@ -1,9 +1,9 @@
 <head>
 	<link rel="stylesheet" href="./tapList.css" />
-		<link rel="stylesheet" href="./fontawesome/css/all.css" />
+		<link rel="stylesheet" href="./fontawesome-pro-5.8.2-web/css/all.css" />
 	
 	<style>
-		html { font-size: 300%; // this is usually 16px by default }
+		html { font-size: 200%; // this is usually 16px by default }
 	
 		body {
 			display: grid;
@@ -16,7 +16,7 @@
 			border: 3px solid #FFFFFF;
 			border-radius: 5px;
 			display: grid;
-			grid-template-columns: 60% 40%;
+			grid-template-columns: 70% 30%;
 		}
 		
 		h4 {
@@ -26,7 +26,6 @@
 
 		h5 {
 			margin: 0px;
-			
 		}
 		
 		p {
@@ -67,6 +66,7 @@
 	function loadBrews() {
 		var brews = JSON.parse(this.responseText);
 
+		document.body.innerHTML = "";
 		for (var index in brews.brews) {
 			var brew = brews.brews[index];
 
@@ -103,7 +103,7 @@
 			stats.classList.add('stats');
 			stats.innerText = 'ABV: ' + brew.abv + " | IBU: " + brew.ibu;
 			brewAside.appendChild(stats);
-			
+
 			document.body.appendChild(brewAside);
 		}
 	}
@@ -116,6 +116,9 @@
 	}
 
 	loadPage();
+
+	setInterval(loadPage, 60000);
+
 </script>
 
 </script>
