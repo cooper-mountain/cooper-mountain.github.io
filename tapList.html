@@ -1,0 +1,128 @@
+<head>
+	<link rel="stylesheet" href="./tapList.css" />
+		<link rel="stylesheet" href="./fontawesome-pro-5.8.2-web/css/all.css" />
+	
+	<style>
+		html { font-size: 200%; // this is usually 16px by default }
+	
+		body {
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+		
+		aside {
+			margin: 15px;
+			padding: 15px;
+			border: 3px solid #FFFFFF;
+			border-radius: 5px;
+			display: grid;
+			grid-template-columns: 70% 30%;
+		}
+		
+		h4 {
+			color: #ffa94d;
+			margin: 0px;
+		}
+
+		h5 {
+			margin: 0px;
+		}
+		
+		p {
+		}
+		
+		
+		.content {
+
+		}
+		
+		.price-stack {
+			margin: 0px 10px;
+		}
+		
+		.prices {
+		font-size: 1em;
+			text-align: right;
+		}
+		
+		.price {
+			font-size: 2em;
+			color: #2E363F;
+			padding-top: 10px;
+			font-size: 80%;
+			font-weight: bold;
+		}
+		
+		.stats {
+			grid-column: span 2;
+		}
+
+	</style>
+</head>
+
+
+<script>
+
+	function loadBrews() {
+		var brews = JSON.parse(this.responseText);
+
+		document.body.innerHTML = "";
+		for (var index in brews.brews) {
+			var brew = brews.brews[index];
+
+			var brewAside = document.createElement('aside');
+
+			var brewDiv = document.createElement('div');
+			brewDiv.classList.add('content');
+
+			var brewName = document.createElement('h4');
+			brewName.innerText = brew.name;
+			brewDiv.appendChild(brewName);
+
+			var style = document.createElement('h5');
+			style.innerText = brew.style;
+			brewDiv.appendChild(style);
+
+			var description = document.createElement('p');
+			description.innerText = brew.description;
+			//brewDiv.appendChild(description);
+
+
+			brewAside.appendChild(brewDiv);
+			
+			
+			var prices = document.createElement('div');
+			prices.classList.add('prices');
+			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-wine-glass-alt"></span><span class="fa-stack-1x price" style="left: 5px; top: -4px;">$4</span></span>';
+			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-glass"></span><span class="fa-stack-1x price">$5</span></span>';
+			
+			
+			brewAside.appendChild(prices);
+			
+			var stats = document.createElement('code');
+			stats.classList.add('stats');
+			stats.innerText = 'ABV: ' + brew.abv + " | IBU: " + brew.ibu;
+			brewAside.appendChild(stats);
+
+			document.body.appendChild(brewAside);
+		}
+	}
+
+	function loadPage() {
+		var request = new XMLHttpRequest();
+		request.addEventListener('load', loadBrews);
+		request.open("GET", "/brews.json");
+		request.send();
+	}
+
+	loadPage();
+
+	setInterval(loadPage, 60000);
+
+</script>
+
+</script>
+
+<body>
+
+</body>
