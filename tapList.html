@@ -10,12 +10,20 @@
 			grid-template-columns: 50% 50%;
 		}
 		
+		p.description {
+			display:none;
+			font-size: .75em;
+		}
+		
 		@media only screen and (max-width: 1900px) {
 			body {
 				grid-template-columns: 100%;
 			}
+			
+			p.description {
+				display: block;
+			}
 		}
-		
 		aside {
 			margin: 15px;
 			padding: 15px;
@@ -39,6 +47,8 @@
 			overflow: hidden;
 			text-overflow: ellipsis;
 		}
+		
+
 		
 		p {
 		}
@@ -92,6 +102,9 @@
 						<h4>${brew.name}</h4>
 						<h5>${brew.style}</h5>
 						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
+						<p class="description">
+							${brew.description}
+						</p>
 					</div>
 					<div class="prices">
 						${brew.prices.filter(price => price.type === currentHour).sort((a,b) => a.value > b.value).map(price => `
@@ -101,7 +114,7 @@
 							</span>	
 						`).join('')}
 					</div>
-					<code class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</code>
+					<span class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
 				</aside>
 			`).join('')}
 		`;
