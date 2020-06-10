@@ -22,10 +22,16 @@
 		h4 {
 			color: #ffa94d;
 			margin: 0px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 
 		h5 {
 			margin: 0px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 		
 		p {
@@ -93,15 +99,15 @@
 			
 			var prices = document.createElement('div');
 			prices.classList.add('prices');
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-wine-glass-alt"></span><span class="fa-stack-1x price" style="left: 5px; top: -4px;">$4</span></span>';
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-glass"></span><span class="fa-stack-1x price">$5</span></span>';
+			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-wine-glass-alt"></span><span class="fa-stack-1x price" style="left: 5px; top: -4px;"><code>$4</code></span></span>';
+			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-glass"></span><span class="fa-stack-1x price"><code>$5</code></span></span>';
 			
 			
 			brewAside.appendChild(prices);
 			
 			var stats = document.createElement('code');
 			stats.classList.add('stats');
-			stats.innerText = 'ABV: ' + brew.abv + " | IBU: " + brew.ibu;
+			stats.innerText = 'ABV: ' + brew.abv + "% | IBU: " + brew.ibu;
 			brewAside.appendChild(stats);
 
 			document.body.appendChild(brewAside);
