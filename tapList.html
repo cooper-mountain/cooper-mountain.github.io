@@ -71,6 +71,8 @@
 
 	function loadBrews() {
 		var brews = JSON.parse(this.responseText);
+		
+		var currentHour = brews.schedule[new Date().getHours()];
 
 		document.body.innerHTML = "";
 		for (var index in brews.brews) {
@@ -88,6 +90,12 @@
 			var style = document.createElement('h5');
 			style.innerText = brew.style;
 			brewDiv.appendChild(style);
+			
+			if (brew.brewery && brew.breweryLocation) {
+				var brewery = document.createElement('h5');
+				brewery.innerText = brew.brewery + " (" + brew.breweryLocation + ")";
+				brewDiv.appendChild(brewery);
+			}
 
 			var description = document.createElement('p');
 			description.innerText = brew.description;
@@ -99,10 +107,14 @@
 			
 			var prices = document.createElement('div');
 			prices.classList.add('prices');
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-wine-glass-alt"></span><span class="fa-stack-1x price" style="left: 5px; top: -4px;"><code>$4</code></span></span>';
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-glass"></span><span class="fa-stack-1x price"><code>$5</code></span></span>';
-			
-			
+			var priceArray = brew.prices.sort((a,b) => a.value > b.value)
+			for (var pricesIndex in priceArray) {
+				var price = brew.prices[pricesIndex];
+				if (price.type === currentHour) {
+					console.log(price);
+					prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x ' + getIcon(price['size']) + '"></span><span class="fa-stack-1x price">$' + price.value + '</span></span>';
+				}
+			}
 			brewAside.appendChild(prices);
 			
 			var stats = document.createElement('code');
@@ -111,6 +123,16 @@
 			brewAside.appendChild(stats);
 
 			document.body.appendChild(brewAside);
+		}
+	}
+	
+	function getIcon(priceSize) {
+		if (priceSize === 'pint') {
+			return "fa-glass";
+		} else if (priceSize === 'glass') {
+			return "fa-wine-glass-alt";
+		} else {
+			return "fa-cirlce"
 		}
 	}
 
