@@ -30,10 +30,26 @@
       "name": "On The Dubbel!",
       "style": "Belgian Dubbel",
       "season": "Seasonal",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "60"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 0.0,
