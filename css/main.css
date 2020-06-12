@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+@import url(https://fonts.googleapis.com/css?family=Cambo);
 
 body {
     background-color: #444444;
-    font-family: "Walter Turncoat", cursive;
+    font-family: "Cambo", serif;
 }
 
 /*  All */
@@ -11,8 +11,12 @@ a {
     color: #cc6633;
 }
 
+a.active {
+    color: #FFFFFF;
+}
+
 a:hover {
-    color: blueviolet;
+    color: #FFFFFF;
 }
 
 /* Header */
