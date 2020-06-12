@@ -10,6 +10,20 @@
 			grid-template-columns: 50% 50%;
 		}
 		
+		p.description {
+			display:none;
+			font-size: .75em;
+		}
+		
+		@media only screen and (max-width: 1900px) {
+			body {
+				grid-template-columns: 100%;
+			}
+			
+			p.description {
+				display: block;
+			}
+		}
 		aside {
 			margin: 15px;
 			padding: 15px;
@@ -34,6 +48,8 @@
 			text-overflow: ellipsis;
 		}
 		
+
+		
 		p {
 		}
 		
@@ -43,11 +59,12 @@
 		}
 		
 		.price-stack {
+			text-align: center;
 			margin: 0px 10px;
 		}
 		
 		.prices {
-		font-size: 1em;
+			font-size: 1em;
 			text-align: right;
 		}
 		
@@ -57,6 +74,10 @@
 			padding-top: 10px;
 			font-size: 80%;
 			font-weight: bold;
+		}
+		
+		.price-pint {
+			top: 8px;
 		}
 		
 		.stats {
@@ -71,46 +92,42 @@
 
 	function loadBrews() {
 		var brews = JSON.parse(this.responseText);
+		
+		var currentHour = brews.schedule[new Date().getHours()];
 
-		document.body.innerHTML = "";
-		for (var index in brews.brews) {
-			var brew = brews.brews[index];
-
-			var brewAside = document.createElement('aside');
-
-			var brewDiv = document.createElement('div');
-			brewDiv.classList.add('content');
-
-			var brewName = document.createElement('h4');
-			brewName.innerText = brew.name;
-			brewDiv.appendChild(brewName);
-
-			var style = document.createElement('h5');
-			style.innerText = brew.style;
-			brewDiv.appendChild(style);
-
-			var description = document.createElement('p');
-			description.innerText = brew.description;
-			//brewDiv.appendChild(description);
-
-
-			brewAside.appendChild(brewDiv);
-			
-			
-			var prices = document.createElement('div');
-			prices.classList.add('prices');
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-wine-glass-alt"></span><span class="fa-stack-1x price" style="left: 5px; top: -4px;"><code>$4</code></span></span>';
-			prices.innerHTML += '<span class="fa-stack price-stack"><span class="fas fa-3x fa-glass"></span><span class="fa-stack-1x price"><code>$5</code></span></span>';
-			
-			
-			brewAside.appendChild(prices);
-			
-			var stats = document.createElement('code');
-			stats.classList.add('stats');
-			stats.innerText = 'ABV: ' + brew.abv + "% | IBU: " + brew.ibu;
-			brewAside.appendChild(stats);
-
-			document.body.appendChild(brewAside);
+		document.body.innerHTML = `
+			${brews.brews.map(brew => `
+				<aside>
+					<div class="content">
+						<h4>${brew.name}</h4>
+						<h5>${brew.style}</h5>
+						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
+						<p class="description">
+							${brew.description}
+						</p>
+					</div>
+					<div class="prices">
+						${brew.prices.filter(price => price.type === currentHour).sort((a,b) => a.value > b.value).map(price => `
+							<span class="fa-stack price-stack">
+								<span class="fas fa-3x ${getIcon(price['size'])}"></span>
+								<span class="fa-stack-1x price price-${price['size']}">$${price['value']}</span>
+							</span>	
+						`).join('')}
+					</div>
+					<span class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
+				</aside>
+			`).join('')}
+		`;
+		
+	}
+	
+	function getIcon(priceSize) {
+		if (priceSize === 'pint') {
+			return "fa-glass";
+		} else if (priceSize === 'glass') {
+			return "fa-wine-glass-alt";
+		} else {
+			return "fa-cirlce"
 		}
 	}
 

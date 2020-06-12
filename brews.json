@@ -1,28 +1,116 @@
 {
+  "schedule": {
+	"0":"REGULAR",
+	"1":"REGULAR",
+	"2":"REGULAR",
+	"3":"REGULAR",
+	"4":"REGULAR",
+	"5":"REGULAR",
+	"6":"REGULAR",
+	"7":"REGULAR",
+	"8":"REGULAR",
+	"9":"REGULAR",
+	"10":"REGULAR",
+	"11":"REGULAR",
+	"12":"REGULAR",
+	"13":"REGULAR",
+	"14":"REGULAR",
+	"15":"HAPPY_HOUR",
+	"16":"HAPPY_HOUR",
+	"17":"HAPPY_HOUR",
+	"18":"REGULAR",
+	"19":"REGULAR",
+	"20":"REGULAR",
+	"21":"HAPPY_HOUR",
+	"22":"HAPPY_HOUR",
+	"23":"HAPPY_HOUR"
+  },
   "brews": [
+    {
+      "name": "On The Dubbel!",
+      "style": "Belgian Dubbel",
+      "season": "Seasonal",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
+        }
+      ],
+      "abv": 0.0,
+      "ibu": 0,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
     {
       "name": "When Hoppy Met Roasty",
       "style": "Black IPA",
       "season": "Year Round",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "60"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 6.7,
       "ibu": 63,
-      "kegs": 0,
       "description": "A dark IPA with a soft roast profile followed closely by bold, earthy hops. Will please Stout lovers and IPA aficionados alike."
     },
     {
       "name": "Her Majesty’s ESB",
       "style": "ESB (Extra Special Bitter)",
       "season": "Year Round",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "60"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 6.0,
@@ -34,10 +122,26 @@
       "name": "Tripel Trouble, y’all",
       "style": "Belgian Tripel",
       "season": "Year Round",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "85"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 7.8,
@@ -49,10 +153,26 @@
       "name": "Barrely, barrely, life is but a dream",
       "style": "Bourbon barrel aged Imperial Strong Ale",
       "season": "Limited",
-      "price": [
+     "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "120"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 9.5,
@@ -64,10 +184,26 @@
       "name": "Deep Space Mountain",
       "style": "Wine Barrel aged Cranberry Stout",
       "season": "Limited",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "120"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
         }
       ],
       "abv": 8.5,
@@ -79,10 +215,59 @@
       "name": "Stout Scout Stout",
       "style": "Chocolate Stout",
       "season": "Year Round",
-      "price": [
+      "prices": [
         {
-          "size": "1/6th bbl",
-          "price": "60"
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
+        }
+      ],
+      "abv": 5.2,
+      "ibu": 24,
+      "kegs": 0,
+      "description": "This chocolate ale is full of flavor without being too strong. Flaked barley and wheat make this stout incredibly smooth—it'll keep you coming back for more. Dark enough to enjoy on a cold day, but light enough to enjoy in either of Oregon's two seasons."
+    },
+    {
+      "name": "Fat",
+      "style": "Wee Heavy Scotch Ale",
+      "season": "Year Round",
+      "brewery": "Silver City",
+      "breweryLocation": "Silverdale, WA",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":4
         }
       ],
       "abv": 5.2,
