@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fontawesome-pro-5.8.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Hello, world!</title>
+
+    <style>
+
+
+        p.description {
+            display:none;
+            font-size: .75em;
+        }
+
+        @media only screen and (max-width: 1900px) {
+            body {
+                grid-template-columns: 100%;
+            }
+
+            p.description {
+                display: block;
+            }
+        }
+        aside {
+            margin: 15px;
+            padding: 15px;
+            border: 3px solid #FFFFFF;
+            border-radius: 5px;
+            display: grid;
+        }
+
+        h4 {
+            color: #ffa94d;
+            margin: 0px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        h5 {
+            color: #FFFFFF;
+            margin: 0px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+
+        p {
+            color: #FFFFFF;
+        }
+
+
+        .content {
+
+        }
+
+        .stats {
+            color: #FFFFFF;
+            grid-column: span 2;
+        }
+
+
+    </style>
+
+</head>
+
+
+
+<body class="container">
+
+    <div class="container">
+
+        <article>
+            <div id="brews">
+            </div>
+        </article>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="../app.js"></script>
+
+<script>
+
+    function loadBrews() {
+        var brews = JSON.parse(this.responseText);
+
+        var currentHour = brews.schedule[new Date().getHours()];
+
+        document.getElementById('brews').innerHTML = `
+			${brews.brews.map(brew => `
+				<aside>
+					<div class="content">
+						<h4>${brew.name}</h4>
+						<h5>${brew.style}</h5>
+						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
+						<p class="description">
+							${brew.description}
+						</p>
+					</div>
+					<span class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
+				</aside>
+			`).join('')}
+		`;
+
+    }
+
+    function getIcon(priceSize) {
+        if (priceSize === 'pint') {
+            return "fa-glass";
+        } else if (priceSize === 'glass') {
+            return "fa-wine-glass-alt";
+        } else {
+            return "fa-cirlce"
+        }
+    }
+
+    function loadPage() {
+        var request = new XMLHttpRequest();
+        request.addEventListener('load', loadBrews);
+        request.open("GET", "/brews.json");
+        request.send();
+    }
+
+    loadPage();
+
+</script>
+</body>
+</html>

@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+@import url(https://fonts.googleapis.com/css?family=Cambo);
 
 body {
     background-color: #444444;
-    font-family: "Walter Turncoat", cursive;
+    font-family: "Cambo", serif;
 }
 
 /*  All */
@@ -11,8 +11,12 @@ a {
     color: #cc6633;
 }
 
+a.active {
+    color: #FFFFFF;
+}
+
 a:hover {
-    color: blueviolet;
+    color: #FFFFFF;
 }
 
 /* Header */
@@ -49,10 +53,9 @@ header div.hero {
 /* Footer */
 
 footer {
-    position: fixed;
+    display: flex;
     left: 0;
     bottom: 0;
-    width: 100%;
     font-size: .8em;
     margin: 40px;
     color: #999;
@@ -73,4 +76,11 @@ footer a:visited {
 
 footer a:hover {
     color: #000;
+}
+
+footer div.footercolumn {
+    text-align: center;
+    min-width: 200px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
 }
