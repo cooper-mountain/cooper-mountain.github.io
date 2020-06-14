@@ -53,10 +53,9 @@ header div.hero {
 /* Footer */
 
 footer {
-    position: fixed;
+    display: flex;
     left: 0;
     bottom: 0;
-    width: 100%;
     font-size: .8em;
     margin: 40px;
     color: #999;
@@ -77,4 +76,11 @@ footer a:visited {
 
 footer a:hover {
     color: #000;
+}
+
+footer div.footercolumn {
+    text-align: center;
+    min-width: 200px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
 }
