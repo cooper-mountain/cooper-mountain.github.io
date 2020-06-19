@@ -27,8 +27,8 @@
   },
   "brews": [
     {
-      "name": "On The Dubbel!",
-      "style": "Belgian Dubbel",
+      "name": "Golden Ale",
+      "style": "Golden Ale",
       "season": "Seasonal",
       "prices": [
         {
@@ -52,14 +52,75 @@
       	  "value":3
         }
       ],
-      "abv": 0.0,
-      "ibu": 0,
+      "abv": 5.0,
+      "ibu": 27,
+      "kegs": 0,
+      "description": "Light in  color and body, with a hint of Loral hops on the nose. A gateway beer for transitioning from macrobrews to craftbrews"
+    },
+    {
+      "name": "Pagan Pale",
+      "style": "NW Pale Ale",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
+        }
+      ],
+      "abv": 5.6,
+      "ibu": 37,
+      "description": "A hoppy American pale ale dry-hopped with Cascade & Armarillo hops. There is a slight caramel sweetness from British crystal malt."
+    },
+    {
+      "name": "Dry-Hopped Pacific Red",
+      "style": "NW Red Ale",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":4
+        },
+        {
+      	  "size":"glass",
+      	  "type":"HAPPY_HOUR",
+      	  "value":3
+        }
+      ],
+      "abv": 5.9,
+      "ibu": 40,
       "kegs": 0,
       "description": "-- Coming Soon --"
     },
     {
-      "name": "When Hoppy Met Roasty",
-      "style": "Black IPA",
+      "name": "THe Reverand's Daughter",
+      "style": "Belgian Style Golden",
       "season": "Year Round",
       "prices": [
         {
@@ -83,75 +144,14 @@
       	  "value":3
         }
       ],
-      "abv": 6.7,
-      "ibu": 63,
-      "description": "A dark IPA with a soft roast profile followed closely by bold, earthy hops. Will please Stout lovers and IPA aficionados alike."
-    },
-    {
-      "name": "Her Majesty’s ESB",
-      "style": "ESB (Extra Special Bitter)",
-      "season": "Year Round",
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
-        }
-      ],
-      "abv": 6.0,
-      "ibu": 46,
+      "abv": 6.75,
+      "ibu": 20,
       "kegs": 0,
-      "description": "Cooper Mountain Ale Works' special ESB is big on character. Toffee, raisin, and bread flavors from the malt balance perfectly with earthy British hops. A fruity yeast note rounds out this traditional style ale. Brilliant!"
+      "description": "-- Coming Soon --"
     },
     {
-      "name": "Tripel Trouble, y’all",
-      "style": "Belgian Tripel",
-      "season": "Year Round",
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
-        }
-      ],
-      "abv": 7.8,
-      "ibu": 22,
-      "kegs": 0,
-      "description": "This spicy Belgian ale spends several months cold conditioning to let the flavors meld, but it's worth waiting for. Star anise, orange peel, and coriander are used to add layers of flavor and aroma to this beer. Speaking of extra time, this beer spends 50% longer in the brew kettle to bring out more caramel notes and enhance this beer's natural color."
-    },
-    {
-      "name": "Barrely, barrely, life is but a dream",
-      "style": "Bourbon barrel aged Imperial Strong Ale",
+      "name": "Vanilla Porter",
+      "style": "Spiced Porter",
       "season": "Limited",
      "prices": [
         {
@@ -175,14 +175,14 @@
       	  "value":3
         }
       ],
-      "abv": 9.5,
-      "ibu": 50,
+      "abv": 5.3,
+      "ibu": 29,
       "kegs": 0,
-      "description": "Scaling up our English Strong Ale recipe to 9% was no picnic, but the extensive floor mopping was eventually worth it after a few months in a fantastically wet Buffalo Trace bourbon barrel. Typical oak and vanilla notes blend smoothly into our robust malt profile, finishing with what seems to be a hint of coconut. The magical esters strike again!"
+      "description": "-- Coming Soon --"
     },
     {
-      "name": "Deep Space Mountain",
-      "style": "Wine Barrel aged Cranberry Stout",
+      "name": "Max's IPA",
+      "style": "NW IPA",
       "season": "Limited",
       "prices": [
         {
@@ -206,14 +206,14 @@
       	  "value":3
         }
       ],
-      "abv": 8.5,
-      "ibu": 40,
+      "abv": 6.85,
+      "ibu": 74,
       "kegs": 0,
-      "description": "In collaboration with Deep Space Brewing, we crafted this recipe with a bold red wine barrel finish in our minds from the outset. The cranberries, malts, and even the hops were chosen to blend perfectly into a well rounded Imperial Stout that would hold up to the barrel character as it aged. Waiting patiently (not our strong suit), we emptied the barrel just as it reached perfection."
+      "description": "-- Coming Soon --"
     },
     {
-      "name": "Stout Scout Stout",
-      "style": "Chocolate Stout",
+      "name": "Sneaky Fox",
+      "style": "Imperial IPA",
       "season": "Year Round",
       "prices": [
         {
@@ -237,17 +237,15 @@
       	  "value":3
         }
       ],
-      "abv": 5.2,
-      "ibu": 24,
+      "abv": 10.24,
+      "ibu": 116,
       "kegs": 0,
-      "description": "This chocolate ale is full of flavor without being too strong. Flaked barley and wheat make this stout incredibly smooth—it'll keep you coming back for more. Dark enough to enjoy on a cold day, but light enough to enjoy in either of Oregon's two seasons."
+      "description": "-- Coming Soon --"
     },
     {
-      "name": "Fat",
-      "style": "Wee Heavy Scotch Ale",
+      "name": "Therapist Scotch",
+      "style": "Scotch Ale",
       "season": "Year Round",
-      "brewery": "Silver City",
-      "breweryLocation": "Silverdale, WA",
       "prices": [
         {
           "size":"pint",
@@ -270,10 +268,165 @@
       	  "value":4
         }
       ],
-      "abv": 5.2,
-      "ibu": 24,
+      "abv": 9.9,
+      "ibu": 23,
       "kegs": 0,
-      "description": "This chocolate ale is full of flavor without being too strong. Flaked barley and wheat make this stout incredibly smooth—it'll keep you coming back for more. Dark enough to enjoy on a cold day, but light enough to enjoy in either of Oregon's two seasons."
+      "description": "-- Coming Soon --"
+    },
+    {
+      "name": "Key Lime Wit",
+      "style": "Belgian Style Wit with Lime",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"HAPPY_HOUR",
+          "value":4
+        }
+      ],
+      "abv": 4.87,
+      "ibu": 8,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
+    {
+      "name": "The Greatest Dane",
+      "style": "Danish String Lager",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"HAPPY_HOUR",
+          "value":4
+        }
+      ],
+      "abv": 7.35,
+      "ibu": 40,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
+    {
+      "name": "Juleblot",
+      "style": "Belgian Dark Strong",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"HAPPY_HOUR",
+          "value":4
+        }
+      ],
+      "abv": 8.5,
+      "ibu": 25,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
+    {
+      "name": "Clocked Out Oatmeal Stout",
+      "style": "Oatmeal Stout on Nitro",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"HAPPY_HOUR",
+          "value":4
+        }
+      ],
+      "abv": 5.2,
+      "ibu": 27,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
+    },
+    {
+      "name": "Barrel Aged Barley Wine",
+      "style": "American Barley Wine aged in Whiskey Barrel",
+      "season": "Year Round",
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"pint",
+          "type":"HAPPY_HOUR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"HAPPY_HOUR",
+          "value":4
+        }
+      ],
+      "abv": 10.25,
+      "ibu": 68,
+      "kegs": 0,
+      "description": "-- Coming Soon --"
     }
   ]
 }
