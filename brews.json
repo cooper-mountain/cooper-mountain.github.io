@@ -17,7 +17,7 @@
       ],
       "abv": 6.0,
       "ibu": 40,
-      "description": "Bold and malty, and balanced with gentle amount of hops."
+      "description": "Bold, malty, and a balanced with gentle amount of hops."
     },
     {
       "name": "Tripel Trouble",
@@ -69,7 +69,7 @@
       ],
       "abv": 5.6,
       "ibu": 37,
-      "description": "A American pale ale finished off with dry hopping."
+      "description": "An American pale ale finished with dry hopping."
     },
     {
       "name": "Dry-Hopped Pacific Red",
@@ -126,7 +126,7 @@
       ],
       "abv": 6.85,
       "ibu": 74,
-      "description": "Strong hop profile balanced with just enough malt."
+      "description": "Strong hop profile balanced with a touch of malt."
     },
     {
       "name": "Sneaky Fox",
@@ -154,7 +154,7 @@
       ],
       "abv": 6.85,
       "ibu": 74,
-      "description": "A huge malty body with a touch of smoked peat."
+      "description": "A big malty base with a touch of smoked peat."
     },
     {
       "name": "Key Lime Wit",
@@ -192,7 +192,7 @@
       ],
       "abv": 8.5,
       "ibu": 27,
-      "description": "A belgian inspired Red (not a sour)."
+      "description": "A big malty base with a touch of smoked peat."
     },
     {
       "name": "Clocked Out",
@@ -211,7 +211,7 @@
       ],
       "abv": 5.2,
       "ibu": 68,
-      "description": "Roasty and smokey, but still keeps a velvety teture to the last sip."
+      "description": "Roasty and smokey, with a velvety texture to the last sip."
     },
     {
       "name": "Draft Master Mike",
@@ -225,7 +225,7 @@
       ],
       "abv": 5.2,
       "ibu": 68,
-      "description": "Smooth drinking with strong whiskey notes, such as vanilla and caramel."
+      "description": "Vanilla and caramel round out this smooth high gravity beer."
     },
     {
       "name": "Fruit Forward",
@@ -244,9 +244,9 @@
           "value":4
         }
       ],
-      "abv": 5.2,
-      "ibu": 68,
-      "description": "Smooth drinking with strong whiskey notes, such as vanilla and caramel."
+      "abv": 4.5,
+      "ibu": 0,
+      "description": "Drink good, do good! Enjoy a pint of the annual PDX Community from Portland Cider Company."
     }
   ]
 }
