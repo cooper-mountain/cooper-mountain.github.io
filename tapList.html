@@ -33,7 +33,7 @@
 			grid-template-columns: 70% 30%;
 		}
 		
-		h4 {
+		h1 {
 			color: #ffa94d;
 			margin: 0px;
 			white-space: nowrap;
@@ -92,14 +92,12 @@
 
 	function loadBrews() {
 		var brews = JSON.parse(this.responseText);
-		
-		var currentHour = brews.schedule[new Date().getHours()];
 
 		document.body.innerHTML = `
 			${brews.brews.map(brew => `
 				<aside>
 					<div class="content">
-						<h4>${brew.name}</h4>
+						<h1>${brew.name}</h1>
 						<h5>${brew.style}</h5>
 						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
 						<p class="description">
@@ -107,7 +105,7 @@
 						</p>
 					</div>
 					<div class="prices">
-						${brew.prices.filter(price => price.type === currentHour).sort((a,b) => a.value > b.value).map(price => `
+						${brew.prices.sort((a,b) => a.value > b.value).map(price => `
 							<span class="fa-stack price-stack">
 								<span class="fas fa-3x ${getIcon(price['size'])}"></span>
 								<span class="fa-stack-1x price price-${price['size']}">$${price['value']}</span>

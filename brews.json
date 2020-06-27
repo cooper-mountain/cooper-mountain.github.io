@@ -1,35 +1,8 @@
 {
-  "schedule": {
-	"0":"REGULAR",
-	"1":"REGULAR",
-	"2":"REGULAR",
-	"3":"REGULAR",
-	"4":"REGULAR",
-	"5":"REGULAR",
-	"6":"REGULAR",
-	"7":"REGULAR",
-	"8":"REGULAR",
-	"9":"REGULAR",
-	"10":"REGULAR",
-	"11":"REGULAR",
-	"12":"REGULAR",
-	"13":"REGULAR",
-	"14":"REGULAR",
-	"15":"HAPPY_HOUR",
-	"16":"HAPPY_HOUR",
-	"17":"HAPPY_HOUR",
-	"18":"REGULAR",
-	"19":"REGULAR",
-	"20":"REGULAR",
-	"21":"HAPPY_HOUR",
-	"22":"HAPPY_HOUR",
-	"23":"HAPPY_HOUR"
-  },
   "brews": [
     {
-      "name": "Golden Ale",
-      "style": "Golden Ale",
-      "season": "Seasonal",
+      "name": "Her Majesty’s ESB",
+      "style": "Extra Special Bitter",
       "prices": [
         {
           "size":"pint",
@@ -40,27 +13,48 @@
       	  "size":"glass",
       	  "type":"REGULAR",
       	  "value":4
-        },
+        }
+      ],
+      "abv": 6.0,
+      "ibu": 40,
+      "description": "Bold and malty, and balanced with gentle amount of hops."
+    },
+    {
+      "name": "Tripel Trouble",
+      "style": "Belgian Tripel",
+      "prices": [
+                {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 8.0,
+      "ibu": 22,
+      "description": "Light in body and big on flavor with spices to bring out notes of caramel and citrus."
+    },
+    {
+      "name": "Golden Ale",
+      "style": "Golden Ale",
+      "prices": [
         {
           "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":4
+          "type":"REGULAR",
+          "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
         }
       ],
       "abv": 5.0,
       "ibu": 27,
-      "kegs": 0,
-      "description": "Light in  color and body, with a hint of Loral hops on the nose. A gateway beer for transitioning from macrobrews to craftbrews"
+      "description": "Light in color and body, with a hint of Loral hops on the nose."
     },
     {
       "name": "Pagan Pale",
       "style": "NW Pale Ale",
-      "season": "Year Round",
       "prices": [
         {
           "size":"pint",
@@ -68,29 +62,18 @@
           "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
+          "size":"glass",
+          "type":"REGULAR",
           "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
         }
       ],
       "abv": 5.6,
       "ibu": 37,
-      "description": "A hoppy American pale ale dry-hopped with Cascade & Armarillo hops. There is a slight caramel sweetness from British crystal malt."
+      "description": "A American pale ale finished off with dry hopping."
     },
     {
       "name": "Dry-Hopped Pacific Red",
       "style": "NW Red Ale",
-      "season": "Year Round",
       "prices": [
         {
           "size":"pint",
@@ -98,30 +81,18 @@
           "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
+          "size":"glass",
+          "type":"REGULAR",
           "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
         }
       ],
       "abv": 5.9,
-      "ibu": 40,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "ibu": 20,
+      "description": "A well-balanced red with NW hop flair."
     },
     {
-      "name": "THe Reverand's Daughter",
-      "style": "Belgian Style Golden",
-      "season": "Year Round",
+      "name": "Reverend's Daughter",
+      "style": "Belgian-Style Golden",
       "prices": [
         {
           "size":"pint",
@@ -129,61 +100,18 @@
           "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
+          "size":"glass",
+          "type":"REGULAR",
           "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
         }
       ],
       "abv": 6.75,
       "ibu": 20,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
-    },
-    {
-      "name": "Vanilla Porter",
-      "style": "Spiced Porter",
-      "season": "Limited",
-     "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
-        }
-      ],
-      "abv": 5.3,
-      "ibu": 29,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "description": "Light and midly spiced with a strong Belgian yeast character."
     },
     {
       "name": "Max's IPA",
       "style": "NW IPA",
-      "season": "Limited",
       "prices": [
         {
           "size":"pint",
@@ -191,242 +119,134 @@
           "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
+          "size":"glass",
+          "type":"REGULAR",
           "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
         }
       ],
       "abv": 6.85,
       "ibu": 74,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "description": "Strong hop profile balanced with just enough malt."
     },
     {
       "name": "Sneaky Fox",
       "style": "Imperial IPA",
-      "season": "Year Round",
       "prices": [
         {
-          "size":"pint",
+          "size":"glass",
           "type":"REGULAR",
           "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":4
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":3
         }
       ],
       "abv": 10.24,
       "ibu": 116,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "description": "High gravity and heavy hops make this a hard hitting IPA."
     },
     {
       "name": "Therapist Scotch",
       "style": "Scotch Ale",
-      "season": "Year Round",
       "prices": [
         {
-          "size":"pint",
+          "size":"glass",
           "type":"REGULAR",
-          "value":6
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
           "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"HAPPY_HOUR",
-      	  "value":4
         }
       ],
-      "abv": 9.9,
-      "ibu": 23,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "abv": 6.85,
+      "ibu": 74,
+      "description": "A huge malty body with a touch of smoked peat."
     },
     {
       "name": "Key Lime Wit",
-      "style": "Belgian Style Wit with Lime",
-      "season": "Year Round",
+      "style": "Belgian Wit with Lime",
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"HAPPY_HOUR",
           "value":4
         }
       ],
-      "abv": 4.87,
-      "ibu": 8,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
-    },
-    {
-      "name": "The Greatest Dane",
-      "style": "Danish String Lager",
-      "season": "Year Round",
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":6
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"HAPPY_HOUR",
-          "value":4
-        }
-      ],
-      "abv": 7.35,
+      "abv": 6.5,
       "ibu": 40,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "description": "A cloudy Belgian with key lime to make for a perfect summer drink."
     },
     {
-      "name": "Juleblot",
-      "style": "Belgian Dark Strong",
-      "season": "Year Round",
+      "name": "Rood Awakening",
+      "style": "Red Ale",
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"HAPPY_HOUR",
           "value":4
         }
       ],
       "abv": 8.5,
-      "ibu": 25,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "ibu": 27,
+      "description": "A belgian inspired Red (not a sour)."
     },
     {
-      "name": "Clocked Out Oatmeal Stout",
-      "style": "Oatmeal Stout on Nitro",
-      "season": "Year Round",
+      "name": "Clocked Out",
+      "style": "Oatmeal Stout",
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"HAPPY_HOUR",
           "value":4
         }
       ],
       "abv": 5.2,
-      "ibu": 27,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "ibu": 68,
+      "description": "Roasty and smokey, but still keeps a velvety teture to the last sip."
     },
     {
-      "name": "Barrel Aged Barley Wine",
-      "style": "American Barley Wine aged in Whiskey Barrel",
-      "season": "Year Round",
+      "name": "Draft Master Mike",
+      "style": " Whiskey Barrel Aged Barley Wine",
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 5.2,
+      "ibu": 68,
+      "description": "Smooth drinking with strong whiskey notes, such as vanilla and caramel."
+    },
+    {
+      "name": "Fruit Forward",
+      "style": "Cider",
+      "brewery": "Portland Cider Company",
+      "breweryLocation": "Portland, OR",
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"pint",
-          "type":"HAPPY_HOUR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"HAPPY_HOUR",
           "value":4
         }
       ],
-      "abv": 10.25,
+      "abv": 5.2,
       "ibu": 68,
-      "kegs": 0,
-      "description": "-- Coming Soon --"
+      "description": "Smooth drinking with strong whiskey notes, such as vanilla and caramel."
     }
   ]
 }
