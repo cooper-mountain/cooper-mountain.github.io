@@ -41,6 +41,11 @@
 			text-overflow: ellipsis;
 		}
 
+		h1 small {
+			font-size: .75em;
+			color: #FFFFFF;
+		}
+
 		h5 {
 			margin: 0px;
 			white-space: nowrap;
@@ -97,8 +102,7 @@
 			${brews.brews.map(brew => `
 				<aside>
 					<div class="content">
-						<h1>${brew.name}</h1>
-						<h5>${brew.style}</h5>
+						<h1>${brew.name} <small>${brew.style}</small></h1>
 						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
 						<p class="description">
 							${brew.description}
@@ -112,7 +116,7 @@
 							</span>	
 						`).join('')}
 					</div>
-					<span class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
+					<span class="stats">#${brew.tap} | ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
 				</aside>
 			`).join('')}
 		`;

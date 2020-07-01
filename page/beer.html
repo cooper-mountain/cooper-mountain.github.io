@@ -25,19 +25,15 @@ gtag('config', 'UA-140799757-1');
 
 
         p.description {
-            display:none;
-            font-size: .75em;
+            display:block;
         }
 
         @media only screen and (max-width: 1900px) {
             body {
                 grid-template-columns: 100%;
             }
-
-            p.description {
-                display: block;
-            }
         }
+
         aside {
             margin: 15px;
             padding: 15px;
@@ -54,6 +50,11 @@ gtag('config', 'UA-140799757-1');
             text-overflow: ellipsis;
         }
 
+        h4 small {
+            color: #FFFFFF;
+            font-size: .75em;
+        }
+
         h5 {
             color: #FFFFFF;
             margin: 0px;
@@ -61,7 +62,6 @@ gtag('config', 'UA-140799757-1');
             overflow: hidden;
             text-overflow: ellipsis;
         }
-
 
 
         p {
@@ -112,8 +112,7 @@ gtag('config', 'UA-140799757-1');
 			${brews.brews.map(brew => `
 				<aside>
 					<div class="content">
-						<h4>${brew.name}</h4>
-						<h5>${brew.style}</h5>
+						<h4>${brew.name} <small>${brew.style}</small></h4>
 						${brew.brewery && brew.breweryLocation ? `<h5>${brew.brewery} (${brew.breweryLocation})</h5>`: ''}
 						<p class="description">
 							${brew.description}

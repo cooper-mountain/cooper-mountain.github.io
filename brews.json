@@ -1,8 +1,11 @@
 {
   "brews": [
     {
-      "name": "Her Majesty’s ESB",
-      "style": "Extra Special Bitter",
+      "name": "Fruit Forward",
+      "style": "Cider",
+      "brewery": "Portland Cider Company",
+      "breweryLocation": "Portland, OR",
+      "tap": 1,
       "prices": [
         {
           "size":"pint",
@@ -10,32 +13,19 @@
           "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        }
-      ],
-      "abv": 6.0,
-      "ibu": 40,
-      "description": "Bold, malty, and a balanced with gentle amount of hops."
-    },
-    {
-      "name": "Tripel Trouble",
-      "style": "Belgian Tripel",
-      "prices": [
-                {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":4
         }
       ],
-      "abv": 8.0,
-      "ibu": 22,
-      "description": "Light in body and big on flavor with spices to bring out notes of caramel and citrus."
+      "abv": 4.5,
+      "ibu": 0,
+      "description": "Drink good, do good! Enjoy a pint of the annual PDX Community from Portland Cider Company."
     },
     {
-      "name": "Golden Ale",
+      "name": "Max's Golden Ale",
       "style": "Golden Ale",
+      "tap": 2,
       "prices": [
         {
           "size":"pint",
@@ -55,6 +45,7 @@
     {
       "name": "Pagan Pale",
       "style": "NW Pale Ale",
+      "tap": 3,
       "prices": [
         {
           "size":"pint",
@@ -74,6 +65,7 @@
     {
       "name": "Dry-Hopped Pacific Red",
       "style": "NW Red Ale",
+      "tap": 4,
       "prices": [
         {
           "size":"pint",
@@ -91,8 +83,29 @@
       "description": "A well-balanced red with NW hop flair."
     },
     {
+      "name": "Her Majesty’s ESB",
+      "style": "Extra Special Bitter",
+      "tap": 5,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        }
+      ],
+      "abv": 6.0,
+      "ibu": 40,
+      "description": "Bold, malty, and a balanced with gentle amount of hops."
+    },
+    {
       "name": "Reverend's Daughter",
       "style": "Belgian-Style Golden",
+      "tap": 6,
       "prices": [
         {
           "size":"pint",
@@ -110,8 +123,44 @@
       "description": "Light and midly spiced with a strong Belgian yeast character."
     },
     {
+      "name": "Rood Awakening",
+      "style": "Red Ale",
+      "tap": 7,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.5,
+      "ibu": 27,
+      "description": "A big malty base with a touch of smoked peat."
+    },
+    {
+      "name": "Draft Master Mike",
+      "style": "Aged Barley Wine",
+      "tap": 9,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 5.2,
+      "ibu": 68,
+      "description": "Vanilla and caramel round out this smooth high gravity beer."
+    },
+    {
       "name": "Max's IPA",
       "style": "NW IPA",
+      "tap": 10,
       "prices": [
         {
           "size":"pint",
@@ -129,36 +178,9 @@
       "description": "Strong hop profile balanced with a touch of malt."
     },
     {
-      "name": "Sneaky Fox",
-      "style": "Imperial IPA",
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":5
-        }
-      ],
-      "abv": 10.24,
-      "ibu": 116,
-      "description": "High gravity and heavy hops make this a hard hitting IPA."
-    },
-    {
-      "name": "Therapist Scotch",
-      "style": "Scotch Ale",
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":5
-        }
-      ],
-      "abv": 6.85,
-      "ibu": 74,
-      "description": "A big malty base with a touch of smoked peat."
-    },
-    {
       "name": "Key Lime Wit",
       "style": "Belgian Wit with Lime",
+      "tap": 11,
       "prices": [
         {
           "size":"pint",
@@ -176,8 +198,9 @@
       "description": "A cloudy Belgian with key lime to make for a perfect summer drink."
     },
     {
-      "name": "Rood Awakening",
-      "style": "Red Ale",
+      "name": "Legend of the Lost Golden",
+      "style": "Golden Ale",
+      "tap": 12,
       "prices": [
         {
           "size":"pint",
@@ -190,13 +213,29 @@
           "value":4
         }
       ],
-      "abv": 8.5,
-      "ibu": 27,
-      "description": "A big malty base with a touch of smoked peat."
+      "abv": 6.5,
+      "ibu": 40,
+      "description": "A cloudy Belgian with key lime to make for a perfect summer drink."
+    },
+    {
+      "name": "Tripel Trouble",
+      "style": "Belgian Tripel",
+      "tap": 13,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 8.0,
+      "ibu": 22,
+      "description": "Light in body and big on flavor with spices to bring out notes of caramel and citrus."
     },
     {
       "name": "Clocked Out",
       "style": "Oatmeal Stout",
+      "tap": 14,
       "prices": [
         {
           "size":"pint",
@@ -214,39 +253,19 @@
       "description": "Roasty and smokey, with a velvety texture to the last sip."
     },
     {
-      "name": "Draft Master Mike",
-      "style": " Whiskey Barrel Aged Barley Wine",
+      "name": "Sneaky Fox",
+      "style": "Imperial IPA",
+      "tap": 15,
       "prices": [
         {
           "size":"glass",
-          "type":"REGULAR",
-          "value":6
-        }
-      ],
-      "abv": 5.2,
-      "ibu": 68,
-      "description": "Vanilla and caramel round out this smooth high gravity beer."
-    },
-    {
-      "name": "Fruit Forward",
-      "style": "Cider",
-      "brewery": "Portland Cider Company",
-      "breweryLocation": "Portland, OR",
-      "prices": [
-        {
-          "size":"pint",
           "type":"REGULAR",
           "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
         }
       ],
-      "abv": 4.5,
-      "ibu": 0,
-      "description": "Drink good, do good! Enjoy a pint of the annual PDX Community from Portland Cider Company."
+      "abv": 10.24,
+      "ibu": 116,
+      "description": "High gravity and heavy hops make this a hard hitting IPA."
     }
   ]
 }
