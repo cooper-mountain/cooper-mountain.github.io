@@ -24,16 +24,38 @@ gtag('config', 'UA-140799757-1');
 
     <style>
 
+
+        /* Container holding the image and the text */
         .splash {
-            background-image: url(images/maxsStreet.jpg);
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .splash {
             background-repeat: no-repeat;
             background-size: cover;
             min-height: 350px;
+            color: #FFFFFF;
+
         }
 
-        article {
-            background-color: #FFFFFF;
+        .splash img {
+            opacity: .8;
         }
+
+
 
     </style>
 
@@ -42,12 +64,24 @@ gtag('config', 'UA-140799757-1');
 
 
 <div class="main-container container">
-    <div class="splash">&nbsp;</div>
-
     <article>
-        <h1 style="text-align: center">Welcome to Cooper Mountain Ale Works <br />at Max's Fanno Creek Brew Pub!</h1>
+        <div class="splash">
+            <img src="images/maxsStreet.jpg" alt="Snow" style="width:100%;">
+            <div class="centered">
+                <div style="background-color: rgba(68, 68, 68, .7)">
+                    <h1 style="opacity: 1;">Welcome to Cooper Mountain Ale Works <br />at Max's Fanno Creek Brew Pub!</h1>
+                </div>
+            </div>
+        </div>
+        <h2 style="text-align: center">Craft Lives Here</h2>
+        <p style="font-size: 1.5em; text-align: center">
+            From our beer and cocktails,
+            to our craft coffee and gourmet pub grub, everything at our establishment is made from the finest
+            quality hand selected ingredients, and carefully crafted for your delight.
+            Come raise a glass with us and experience the finest what we have to offer.</p>
 
-        <p>We are open Wednesday through Sunday from 3pm - 9pm with pints, cocktails, and an all new menu!</p>
+        <p style="font-size: 1.5em; text-align: center">
+            We are crafting food and drink Wednesday through Sunday from 3pm to 9pm.</p>
     </article>
 </div>
 

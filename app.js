@@ -1,14 +1,16 @@
 const pages = [
-    ["Restaurant",  "/page/restaurant.html"],
+    ["Home",  "/"],
     ["Brewery", "/page/brewery.html"],
     ["Food",  "/page/food.html"],
     ["Beer",  "/page/beer.html"],
     ["Events",  "/page/events.html"],
-    ["Gatherings",  "/page/gatherings.html"],
-    ["News",  "/page/news.html"]
+    ["Gatherings",  "/page/gatherings.html"]
 ];
 
 function renderHeaderAndFooter() {
+
+    console.log(window.location.pathname);
+
     let header = document.createElement('header');
     header.innerHTML = `
     <div class="hero">
@@ -21,7 +23,7 @@ function renderHeaderAndFooter() {
         <ul class="nav justify-content-center">
             ${pages.map(elm =>
                 `<li class="nav-item">
-                    <a class="nav-link" href="${elm[1]}">${elm[0]}</a>
+                    <a class="nav-link  ${window.location.pathname === elm[1] ? 'active' : ''}" href="${elm[1]}">${elm[0]}</a>
                 </li>`).join('')}
           
         </ul>

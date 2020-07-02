@@ -22,16 +22,18 @@ gtag('config', 'UA-140799757-1');
     <title>Cooper Mountain Ale Works at Max's Fanno Creek Brew Pub | Events</title>
 
     <style>
-
+        /* Container holding the image and the text */
         .splash {
-            background-image: url(/images/maxsStreet.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 350px;
+            position: relative;
+            text-align: center;
+            color: white;
         }
 
-        article {
-            background-color: #FFFFFF;
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 40%;
+            width: 100%;
         }
 
     </style>
@@ -40,7 +42,16 @@ gtag('config', 'UA-140799757-1');
 <body class="container">
 
 <div class="container">
-    <div class="splash">&nbsp;</div>
+   <article>
+       <div class="splash">
+           <img src="../images/maxsStreet.jpg" alt="Snow" style="width:100%;">
+           <div class="centered">
+               <div style="background-color: rgba(68, 68, 68, .7)">
+                   <h1 style="opacity: 1;">Check back for our calendar of upcoming events!</h1>
+               </div>
+           </div>
+       </div>
+   </article>
 
 </div>
 
