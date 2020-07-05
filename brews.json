@@ -123,9 +123,24 @@
       "description": "Light and midly spiced with a strong Belgian yeast character."
     },
     {
-      "name": "Rood Awakening",
-      "style": "Red Ale",
+      "name": "Therapist Scotch",
+      "style": "Wee Heavy Scottish Ale",
       "tap": 7,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 9.9,
+      "ibu": 23,
+      "description": "A big malty base with a touch of smoked peat."
+    },
+    {
+      "name": "English Summer",
+      "style": "Honey Blonde",
+      "tap": 8,
       "prices": [
         {
           "size":"pint",
@@ -138,9 +153,9 @@
           "value":4
         }
       ],
-      "abv": 6.5,
-      "ibu": 27,
-      "description": "A big malty base with a touch of smoked peat."
+      "abv": 5.5,
+      "ibu": 24,
+      "description": "Crafted to be consumed in direct sunlight, this slightly hazy ale delivers the aromas and flavors of the english countryside in full bloom."
     },
     {
       "name": "Draft Master Mike",
