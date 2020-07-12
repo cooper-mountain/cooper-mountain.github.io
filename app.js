@@ -42,7 +42,7 @@ function renderHeaderAndFooter() {
             </p>
             <p><a href="mailto:info@coopermountainaleworks.com" style="color: #cc6633;">info@CooperMountainAleWorks.com</a></p>
             <span>12562 SW Main St, Tigard, OR 97223</span>
-            <p>(503) 624-9400</p>
+            <p>(503) 624-8900</p>
            
         </div>    
         <div class="footercolumn">
