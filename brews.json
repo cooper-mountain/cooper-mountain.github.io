@@ -1,10 +1,10 @@
 {
   "brews": [
     {
-      "name": "Fruit Forward",
+      "name": "Açaí Lemonade",
       "style": "Cider",
-      "brewery": "Portland Cider Company",
-      "breweryLocation": "Portland, OR",
+      "brewery": "Avid Cider Company",
+      "breweryLocation": "Bend, OR",
       "tap": 1,
       "prices": [
         {
@@ -18,9 +18,9 @@
           "value":4
         }
       ],
-      "abv": 4.5,
+      "abv": 6,
       "ibu": 0,
-      "description": "Drink good, do good! Enjoy a pint of the annual PDX Community from Portland Cider Company."
+      "description": ""
     },
     {
       "name": "Max's Golden Ale",
