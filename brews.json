@@ -193,8 +193,8 @@
       "description": "Strong hop profile balanced with a touch of malt."
     },
     {
-      "name": "Key Lime Wit",
-      "style": "Belgian Wit with Lime",
+      "name": "Fanno Fog",
+      "style": "NW Hazy IPA",
       "tap": 11,
       "prices": [
         {
@@ -208,9 +208,9 @@
           "value":4
         }
       ],
-      "abv": 6.5,
-      "ibu": 40,
-      "description": "A cloudy Belgian with key lime to make for a perfect summer drink."
+      "abv": 6.3,
+      "ibu": 55,
+      "description": "Bitter and hazy. A Northwest take on the traditional Northeast style using Loral and Samba hops to offer a hoppy summer ale."
     },
     {
       "name": "Legend of the Lost Golden",
