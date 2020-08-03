@@ -123,8 +123,8 @@
       "description": "Light and midly spiced with a strong Belgian yeast character."
     },
     {
-      "name": "Therapist Scotch",
-      "style": "Wee Heavy Scottish Ale",
+      "name": "On the Dubbel!",
+      "style": "Belgian Dubbel",
       "tap": 7,
       "prices": [
         {
@@ -133,9 +133,9 @@
           "value":5
         }
       ],
-      "abv": 9.9,
+      "abv": 7,
       "ibu": 23,
-      "description": "A big malty base with a touch of smoked peat."
+      "description": "Trappist sourced yeast combined with caramelized malts from the french countryside collide in this copper beauty."
     },
     {
       "name": "English Summer",
