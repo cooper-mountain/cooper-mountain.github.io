@@ -193,8 +193,8 @@
       "description": "Strong hop profile balanced with a touch of malt."
     },
     {
-      "name": "Fanno Fog",
-      "style": "NW Hazy IPA",
+      "name": "Magnanimous Opus",
+      "style": "English IPA",
       "tap": 11,
       "prices": [
         {
@@ -208,9 +208,9 @@
           "value":4
         }
       ],
-      "abv": 6.3,
-      "ibu": 55,
-      "description": "Bitter and hazy. A Northwest take on the traditional Northeast style using Loral and Samba hops to offer a hoppy summer ale."
+      "abv": 6.0,
+      "ibu": 48,
+      "description": "For a long time now, I have been craving an IPA with a little more malt backbone and just the right amount of bitterness. Finished with stone fruit aromas from a combination of Azacca hops and english yeast. I made it for me, but I’ll share it with you."
     },
     {
       "name": "Legend of the Lost Golden",
