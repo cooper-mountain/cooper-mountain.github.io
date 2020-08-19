@@ -1,10 +1,10 @@
 {
   "brews": [
     {
-      "name": "Açaí Lemonade",
+      "name": "Rotating Guest Cider",
       "style": "Cider",
-      "brewery": "Avid Cider Company",
-      "breweryLocation": "Bend, OR",
+      "brewery": "",
+      "breweryLocation": "",
       "tap": 1,
       "prices": [
         {
@@ -18,13 +18,13 @@
           "value":4
         }
       ],
-      "abv": 6,
+      "abv": -1,
       "ibu": 0,
-      "description": ""
+      "description": "Ask our servers about our rotating guest cider tap."
     },
     {
-      "name": "Max's Golden Ale",
-      "style": "Golden Ale",
+      "name": "Week Sauce",
+      "style": "Blonde Ale",
       "tap": 2,
       "prices": [
         {
@@ -39,8 +39,8 @@
         }
       ],
       "abv": 5.0,
-      "ibu": 27,
-      "description": "Light in color and body, with a hint of Loral hops on the nose."
+      "ibu": 15,
+      "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
     },
     {
       "name": "Pagan Pale",
@@ -168,7 +168,7 @@
           "value":6
         }
       ],
-      "abv": 5.2,
+      "abv": 10.2,
       "ibu": 68,
       "description": "Vanilla and caramel round out this smooth high gravity beer."
     },

@@ -121,7 +121,7 @@ gtag('config', 'UA-140799757-1');
 							${brew.description}
 						</p>
 					</div>
-					<span class="stats">ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
+					<span class="stats">${brew.abv > 0 ? `ABV: ${brew.abv}% | IBU: ${brew.ibu}` : ''}</span>
 				</aside>
 			`).join('')}
 		`;

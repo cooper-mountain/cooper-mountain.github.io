@@ -121,7 +121,7 @@
 							</span>	
 						`).join('')}
 					</div>
-					<span class="stats">#${brew.tap} | ABV: ${brew.abv}% | IBU: ${brew.ibu}</span>
+					<span class="stats">#${brew.tap} ${brew.abv > 0 ? `| ABV: ${brew.abv}% | IBU: ${brew.ibu}` : ''}</span>
 				</aside>
 			`).join('')}
 		`;
