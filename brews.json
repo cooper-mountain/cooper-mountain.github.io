@@ -123,24 +123,9 @@
       "description": "Light and midly spiced with a strong Belgian yeast character."
     },
     {
-      "name": "On the Dubbel!",
-      "style": "Belgian Dubbel",
-      "tap": 7,
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":5
-        }
-      ],
-      "abv": 7,
-      "ibu": 23,
-      "description": "Trappist sourced yeast combined with caramelized malts from the french countryside collide in this copper beauty."
-    },
-    {
       "name": "English Summer",
       "style": "Honey Blonde",
-      "tap": 8,
+      "tap": 7,
       "prices": [
         {
           "size":"pint",
@@ -156,6 +141,26 @@
       "abv": 5.5,
       "ibu": 24,
       "description": "Crafted to be consumed in direct sunlight, this slightly hazy ale delivers the aromas and flavors of the english countryside in full bloom."
+    },
+    {
+      "name": "Bet it all on Red",
+      "style": "Irish-style Red",
+      "tap": 8,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 5.5,
+      "ibu": 28,
+      "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
     },
     {
       "name": "Draft Master Mike",
@@ -213,28 +218,23 @@
       "description": "For a long time now, I have been craving an IPA with a little more malt backbone and just the right amount of bitterness. Finished with stone fruit aromas from a combination of Azacca hops and english yeast. I made it for me, but I’ll share it with you."
     },
     {
-      "name": "Legend of the Lost Golden",
-      "style": "Golden Ale",
+      "name": "Tripel Trouble",
+      "style": "Belgion-Style Tripel",
       "tap": 12,
       "prices": [
         {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
-      "abv": 6.5,
-      "ibu": 40,
-      "description": "A cloudy Belgian with key lime to make for a perfect summer drink."
+      "abv": 8,
+      "ibu": 22,
+      "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
     },
     {
-      "name": "Tripel Trouble",
-      "style": "Belgian Tripel",
+      "name": "On the Dubbel",
+      "style": "Belgian-Style Dubbel",
       "tap": 13,
       "prices": [
         {
@@ -243,9 +243,9 @@
           "value":5
         }
       ],
-      "abv": 8.0,
-      "ibu": 22,
-      "description": "Light in body and big on flavor with spices to bring out notes of caramel and citrus."
+      "abv": 7,
+      "ibu": 23,
+      "description": "Trappist sourced yeast combined with caramelized malts from the french countryside collide in this copper beauty."
     },
     {
       "name": "Clocked Out",
