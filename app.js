@@ -53,7 +53,7 @@ function renderHeaderAndFooter() {
                 <tr><td>Tuesday</td><td>3pm - 9pm</td></tr>
                 <tr><td>Wednesday</td><td>3pm - 9pm</td></tr>
                 <tr><td>Thursday</td><td>3pm - 9pm</td></tr>
-                <tr><td>Friday</td><td>3pm - 9pm</td></tr>
+                <tr><td>Friday</td><td>11am - 9pm</td></tr>
                 <tr><td>Saturday</td><td>10am - 9pm</td></tr>
             </table>
         </div>`;
