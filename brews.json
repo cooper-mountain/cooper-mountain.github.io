@@ -103,8 +103,8 @@
       "description": "Bold, malty, and a balanced with gentle amount of hops."
     },
     {
-      "name": "Reverend's Daughter",
-      "style": "Belgian-Style Golden",
+      "name": "Head full of Hops and Dreams",
+      "style": "NW IPA",
       "tap": 6,
       "prices": [
         {
@@ -118,13 +118,13 @@
           "value":4
         }
       ],
-      "abv": 6.75,
-      "ibu": 20,
-      "description": "Light and midly spiced with a strong Belgian yeast character."
+      "abv": 6.5,
+      "ibu": 58,
+      "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
-      "name": "English Summer",
-      "style": "Honey Blonde",
+      "name": "Legend of the Lost Golden",
+      "style": "Golden",
       "tap": 7,
       "prices": [
         {
@@ -140,7 +140,7 @@
       ],
       "abv": 5.5,
       "ibu": 24,
-      "description": "Crafted to be consumed in direct sunlight, this slightly hazy ale delivers the aromas and flavors of the english countryside in full bloom."
+      "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
     {
       "name": "Bet it all on Red",
@@ -178,9 +178,9 @@
       "description": "Vanilla and caramel round out this smooth high gravity beer."
     },
     {
-      "name": "Max's IPA",
-      "style": "NW IPA",
-      "tap": 10,
+      "name": "Hef(alumps and Woosels)",
+      "style": "Bavarian Hefeweizen",
+      "tap": 11,
       "prices": [
         {
           "size":"pint",
@@ -193,9 +193,9 @@
           "value":4
         }
       ],
-      "abv": 6.85,
-      "ibu": 74,
-      "description": "Strong hop profile balanced with a touch of malt."
+      "abv": 5.4,
+      "ibu": 15,
+      "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
       "name": "Magnanimous Opus",
