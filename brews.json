@@ -1,31 +1,9 @@
 {
   "brews": [
     {
-      "name": "Rotating Guest Cider",
-      "style": "Cider",
-      "brewery": "",
-      "breweryLocation": "",
-      "tap": 1,
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
-        }
-      ],
-      "abv": -1,
-      "ibu": 0,
-      "description": "Ask our servers about our rotating guest cider tap."
-    },
-    {
       "name": "Week Sauce",
       "style": "Blonde Ale",
-      "tap": 2,
+      "tap": 1,
       "prices": [
         {
           "size":"pint",
@@ -45,7 +23,7 @@
     {
       "name": "Pagan Pale",
       "style": "NW Pale Ale",
-      "tap": 3,
+      "tap": 2,
       "prices": [
         {
           "size":"pint",
@@ -63,9 +41,9 @@
       "description": "An American pale ale finished with dry hopping."
     },
     {
-      "name": "Dry-Hopped Pacific Red",
-      "style": "NW Red Ale",
-      "tap": 4,
+      "name": "Legend of the Lost Golden",
+      "style": "Golden",
+      "tap": 3,
       "prices": [
         {
           "size":"pint",
@@ -78,31 +56,11 @@
           "value":4
         }
       ],
-      "abv": 5.9,
-      "ibu": 20,
-      "description": "A well-balanced red with NW hop flair."
+      "abv": 5.5,
+      "ibu": 24,
+      "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
-    {
-      "name": "Her Majesty’s ESB",
-      "style": "Extra Special Bitter",
-      "tap": 5,
-      "prices": [
         {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
-        }
-      ],
-      "abv": 6.0,
-      "ibu": 40,
-      "description": "Bold, malty, and a balanced with gentle amount of hops."
-    },
-    {
       "name": "Head full of Hops and Dreams",
       "style": "NW IPA",
       "tap": 6,
@@ -121,26 +79,6 @@
       "abv": 6.5,
       "ibu": 58,
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
-    },
-    {
-      "name": "Legend of the Lost Golden",
-      "style": "Golden",
-      "tap": 7,
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
-        }
-      ],
-      "abv": 5.5,
-      "ibu": 24,
-      "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
     {
       "name": "Bet it all on Red",
@@ -163,21 +101,6 @@
       "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
     },
     {
-      "name": "Draft Master Mike",
-      "style": "Aged Barley Wine",
-      "tap": 9,
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":6
-        }
-      ],
-      "abv": 10.2,
-      "ibu": 68,
-      "description": "Vanilla and caramel round out this smooth high gravity beer."
-    },
-    {
       "name": "Brew Looks Like a Hazy",
       "style": "Bavarian Hefeweizen",
       "tap": 11,
@@ -198,9 +121,9 @@
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
-      "name": "Magnanimous Opus",
-      "style": "English IPA",
-      "tap": 11,
+      "name": "Max's Golden",
+      "style": "Golden",
+      "tap": 7,
       "prices": [
         {
           "size":"pint",
@@ -213,29 +136,14 @@
           "value":4
         }
       ],
-      "abv": 6.0,
-      "ibu": 48,
-      "description": "For a long time now, I have been craving an IPA with a little more malt backbone and just the right amount of bitterness. Finished with stone fruit aromas from a combination of Azacca hops and english yeast. I made it for me, but I’ll share it with you."
-    },
-    {
-      "name": "Tripel Trouble",
-      "style": "Belgion-Style Tripel",
-      "tap": 12,
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":5
-        }
-      ],
-      "abv": 8,
-      "ibu": 22,
-      "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
+      "abv": 5.0,
+      "ibu": 020
+      "description": "Light body, light hop profile."
     },
     {
       "name": "On the Dubbel",
       "style": "Belgian-Style Dubbel",
-      "tap": 13,
+      "tap": 8,
       "prices": [
         {
           "size":"glass",
@@ -248,9 +156,24 @@
       "description": "Trappist sourced yeast combined with caramelized malts from the french countryside collide in this copper beauty."
     },
     {
+      "name": "Tripel Trouble",
+      "style": "Belgion-Style Tripel",
+      "tap": 9,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 8,
+      "ibu": 22,
+      "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
+    },
+        {
       "name": "Clocked Out",
       "style": "Oatmeal Stout",
-      "tap": 14,
+      "tap": 10,
       "prices": [
         {
           "size":"pint",
@@ -270,7 +193,7 @@
     {
       "name": "Sneaky Fox",
       "style": "Imperial IPA",
-      "tap": 15,
+      "tap": 11,
       "prices": [
         {
           "size":"glass",
@@ -281,6 +204,153 @@
       "abv": 10.24,
       "ibu": 116,
       "description": "High gravity and heavy hops make this a hard hitting IPA."
+    },
+    {
+      "name": "Her Majesty’s ESB",
+      "style": "Extra Special Bitter",
+      "tap": 12,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+      	  "size":"glass",
+      	  "type":"REGULAR",
+      	  "value":4
+        }
+      ],
+      "abv": 6.0,
+      "ibu": 40,
+      "description": "Bold, malty, and a balanced with gentle amount of hops."
+    },
+    {
+      "name": "Magnanimous Opus",
+      "style": "English IPA",
+      "tap": 13,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.0,
+      "ibu": 48,
+      "description": "For a long time now, I have been craving an IPA with a little more malt backbone and just the right amount of bitterness. Finished with stone fruit aromas from a combination of Azacca hops and english yeast. I made it for me, but I’ll share it with you."
+    },
+    {
+      "name": "Johann Sebastian Doppelbock",
+      "style": "German Doppelbock",
+      "tap": 14,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.8,
+      "ibu": 22,
+      "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
+    },
+    {
+      "name": "Dry-Hopped Pacific Amber",
+      "style": "Hoppy Red/Amber",
+      "tap": 15,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.2,
+      "ibu": 45,
+      "description": "A well-balanced red with NW hop flair."
+    },
+    {
+      "name": "Scotch Ale",
+      "style": "Scottish Wee Heavy",
+      "tap": 16,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 9.8,
+      "ibu": 23,
+      "description": "Vanilla and caramel round out this smooth high gravity beer."
+    },
+    {
+      "name": "Draft Master Mike",
+      "style": "Aged Barley Wine",
+      "tap": 17,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 10.2,
+      "ibu": 68,
+      "description": "Vanilla and caramel round out this smooth high gravity beer."
+    },
+    {
+      "name": "Barrel-aged Belgian Dark Strong",
+      "style": "Belgian Dark Strong",
+      "tap": 18,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 9.5,
+      "ibu": 25,
+      "description": "The barrel did a majority of the work with this brew, muting the traditiuonally stong belgian character, and overpowering it with notes primarily of vanilla and chocolate."
+    },
+    {
+      "name": "Rotating Guest Cider",
+      "style": "Cider",
+      "brewery": "",
+      "breweryLocation": "",
+      "tap": 1,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": -1,
+      "ibu": 0,
+      "description": "Ask our servers about our rotating guest cider tap."
     }
   ]
 }
