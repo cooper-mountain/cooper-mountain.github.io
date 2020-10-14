@@ -63,7 +63,7 @@
         {
       "name": "Head full of Hops and Dreams",
       "style": "NW IPA",
-      "tap": 6,
+      "tap": 4,
       "prices": [
         {
           "size":"pint",
@@ -83,7 +83,7 @@
     {
       "name": "Bet it all on Red",
       "style": "Irish-style Red",
-      "tap": 8,
+      "tap": 5,
       "prices": [
         {
           "size":"pint",
@@ -103,7 +103,7 @@
     {
       "name": "Brew Looks Like a Hazy",
       "style": "Bavarian Hefeweizen",
-      "tap": 11,
+      "tap": 6,
       "prices": [
         {
           "size":"pint",
@@ -170,7 +170,7 @@
       "ibu": 22,
       "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
     },
-        {
+    {
       "name": "Clocked Out",
       "style": "Oatmeal Stout",
       "tap": 10,
@@ -223,7 +223,7 @@
       ],
       "abv": 6.0,
       "ibu": 40,
-      "description": "Bold, malty, and a balanced with gentle amount of hops."
+      "description": "Bold, malty, and gentle amount of hops for balance."
     },
     {
       "name": "Magnanimous Opus",
@@ -335,7 +335,7 @@
       "style": "Cider",
       "brewery": "",
       "breweryLocation": "",
-      "tap": 1,
+      "tap": 19,
       "prices": [
         {
           "size":"pint",
