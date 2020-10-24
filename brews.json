@@ -331,10 +331,10 @@
       "description": "The barrel did a majority of the work with this brew, muting the traditiuonally stong belgian character, and overpowering it with notes primarily of vanilla and chocolate."
     },
     {
-      "name": "Rotating Guest Cider",
+      "name": "Strawberry Fields",
       "style": "Cider",
-      "brewery": "",
-      "breweryLocation": "",
+      "brewery": "Bull Run Cider",
+      "breweryLocation": "Forest Grove, OR",
       "tap": 19,
       "prices": [
         {
@@ -348,9 +348,26 @@
           "value":4
         }
       ],
-      "abv": -1,
+      "abv": 6.5,
       "ibu": 0,
-      "description": "Ask our servers about our rotating guest cider tap."
+      "description": "Cider infused with strawberry goodness."
+    },
+    {
+      "name": "Spiced Cider",
+      "style": "Cider",
+      "brewery": "Slake Cider",
+      "breweryLocation": "McMinnville, OR",
+      "tap": 20,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv":6.5,
+      "ibu": 0,
+      "description": "All of your favorite winter time spices, in a cider."
     }
   ]
 }
