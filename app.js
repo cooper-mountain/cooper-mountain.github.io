@@ -2,6 +2,7 @@ const pages = [
     ["Home",  "/"],
     ["Brewery", "/page/brewery.html"],
     ["Food",  "/page/food.html"],
+    ["To Go", "https://versieats.com/menu-coopermountain"],
     ["Beer",  "/page/beer.html"],
     ["Events",  "/page/events.html"],
     ["Gatherings",  "/page/gatherings.html"]
