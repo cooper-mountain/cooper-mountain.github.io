@@ -49,13 +49,13 @@ function renderHeaderAndFooter() {
         <div class="footercolumn">
             <h5>Hours&nbsp;&nbsp;&nbsp;</h5>
             <table style="border-spacing: 10px 0px;   border-collapse: separate;" align="center">
-                <tr><td>Sunday</td><td>10am - 9pm</td></tr>
+                <tr><td>Sunday</td><td>11am - 9pm</td></tr>
                 <tr><td>Monday</td><td>Closed</td></tr>
                 <tr><td>Tuesday</td><td>3pm - 9pm</td></tr>
                 <tr><td>Wednesday</td><td>3pm - 9pm</td></tr>
                 <tr><td>Thursday</td><td>3pm - 9pm</td></tr>
                 <tr><td>Friday</td><td>11am - 9pm</td></tr>
-                <tr><td>Saturday</td><td>10am - 9pm</td></tr>
+                <tr><td>Saturday</td><td>11am - 9pm</td></tr>
             </table>
         </div>`;
 
