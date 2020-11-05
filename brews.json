@@ -121,8 +121,8 @@
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
-      "name": "Max's Golden",
-      "style": "Golden",
+      "name": "Reverend's Step-Daughter",
+      "style": "Belgian-style Blonde Ale",
       "tap": 7,
       "prices": [
         {
@@ -136,9 +136,9 @@
           "value":4
         }
       ],
-      "abv": 5.0,
-      "ibu": 20,
-      "description": "Light body, light hop profile."
+      "abv": 5.8,
+      "ibu": 22,
+      "description": "Following our tradition of sticking to the basics with our Belgian styles, this is a straight-down-the-middle interpretation of a Belgian blonde. Delivers notes of vanilla and corriander along with vibrant, fruity esters produced by this Belgian yeast."
     },
     {
       "name": "On the Dubbel",
