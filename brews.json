@@ -226,24 +226,24 @@
       "description": "Bold, malty, and gentle amount of hops for balance."
     },
     {
-      "name": "Magnanimous Opus",
-      "style": "English IPA",
+      "name": "Winey the Elder",
+      "style": "Red Wine Barrel aged Cranberry Imperial Stout",
       "tap": 13,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
-      "abv": 6.0,
-      "ibu": 48,
-      "description": "For a long time now, I have been craving an IPA with a little more malt backbone and just the right amount of bitterness. Finished with stone fruit aromas from a combination of Azacca hops and english yeast. I made it for me, but I’ll share it with you."
+      "abv": 8.5,
+      "ibu": 28,
+      "description": "This one has been in storage for 2 years, just waiting for the right time to share it with our favorite die hard fans. The cranberry tartness serves to blend the red wine notes into the hearty malts of our Imperial Stout recipe."
     },
     {
       "name": "Johann Sebastian Doppelbock",
