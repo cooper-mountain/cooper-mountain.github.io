@@ -21,8 +21,8 @@
       "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
     },
     {
-      "name": "Pagan Pale",
-      "style": "NW Pale Ale",
+      "name": "If Only I Had Seen This Coming",
+      "style": "Cream Ale",
       "tap": 2,
       "prices": [
         {
@@ -38,7 +38,7 @@
       ],
       "abv": 5.6,
       "ibu": 37,
-      "description": "An American pale ale finished with dry hopping."
+      "description": "An American Cream Ale with Mandarina Bavaria hops and Valencia Orange Peel contributing a distinct orange aroma and character."
     },
     {
       "name": "Legend of the Lost Golden",
