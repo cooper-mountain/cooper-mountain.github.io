@@ -298,7 +298,7 @@
       ],
       "abv": 9.8,
       "ibu": 23,
-      "description": "Vanilla and caramel round out this smooth high gravity beer."
+      "description": "Heavy on the smoke like a Lagavulin or Ardbeg Scotch, with a strong malt backbone for balance."
     },
     {
       "name": "Draft Master Mike",
@@ -316,8 +316,8 @@
       "description": "Vanilla and caramel round out this smooth high gravity beer."
     },
     {
-      "name": "Barrel-aged Belgian Dark Strong",
-      "style": "Belgian Dark Strong",
+      "name": "Brownton Abbey",
+      "style": "Barrel-aged Belgian Dark Strong",
       "tap": 18,
       "prices": [
         {
@@ -331,7 +331,7 @@
       "description": "The barrel did a majority of the work with this brew, muting the traditiuonally stong belgian character, and overpowering it with notes primarily of vanilla and chocolate."
     },
     {
-      "name": "Strawberry Fields",
+      "name": "Brambleberry",
       "style": "Cider",
       "brewery": "Bull Run Cider",
       "breweryLocation": "Forest Grove, OR",
@@ -350,11 +350,11 @@
       ],
       "abv": 6.5,
       "ibu": 0,
-      "description": "Cider infused with strawberry goodness."
+      "description": "Cider infused with various NW sourced berries."
     },
     {
-      "name": "Spiced Cider",
-      "style": "Cider",
+      "name": "Sauvage",
+      "style": "Farmhouse/French Cider",
       "brewery": "Slake Cider",
       "breweryLocation": "McMinnville, OR",
       "tap": 20,
@@ -367,7 +367,7 @@
       ],
       "abv":6.5,
       "ibu": 0,
-      "description": "All of your favorite winter time spices, in a cider."
+      "description": "."
     }
   ]
 }
