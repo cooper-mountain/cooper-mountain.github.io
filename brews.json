@@ -61,7 +61,7 @@
       "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
         {
-      "name": "Head full of Hops and Dreams",
+      "name": "Head Full of Hops and Dreams",
       "style": "NW IPA",
       "tap": 4,
       "prices": [
@@ -141,8 +141,8 @@
       "description": "Following our tradition of sticking to the basics with our Belgian styles, this is a straight-down-the-middle interpretation of a Belgian blonde. Delivers notes of vanilla and corriander along with vibrant, fruity esters produced by this Belgian yeast."
     },
     {
-      "name": "Stout Scout Stout",
-      "style": "Chocolate Stout",
+      "name": "Ginger Soul",
+      "style": "Belgian-style Saison",
       "tap": 8,
       "prices": [
         {
@@ -153,7 +153,7 @@
       ],
       "abv": 6,
       "ibu": 30,
-      "description": "This rich and roasty stout will give a slight flavor of cocoa. Best enjoyed with your friends on a cold afternoon while trying to solve all the worlds problems."
+      "description": "Based on the famed Saison Dupont yeast strain with a high percentage of wheat malt for extra body to balance against the power of the Ginger."
     },
     {
       "name": "Tripel Trouble",
