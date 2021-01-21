@@ -286,8 +286,8 @@
       "description": "A well-balanced red with NW hop flair."
     },
     {
-      "name": "Scotch Ale",
-      "style": "Scottish Wee Heavy",
+      "name": "100 Shilling in the Name Of",
+      "style": "Scottish Export (100 Shilling)",
       "tap": 16,
       "prices": [
         {
@@ -296,9 +296,9 @@
           "value":6
         }
       ],
-      "abv": 9.8,
-      "ibu": 23,
-      "description": "Heavy on the smoke like a Lagavulin or Ardbeg Scotch, with a strong malt backbone for balance."
+      "abv": 6.8,
+      "ibu": 30,
+      "description": "Complex layers of carmelized malts paired with a small amount of peated malt for a perfectly balanced Scottish that you can actually have more than one of!"
     },
     {
       "name": "Draft Master Mike",
@@ -353,8 +353,8 @@
       "description": "Cider infused with various NW sourced berries."
     },
     {
-      "name": "Sauvage",
-      "style": "Farmhouse/French Cider",
+      "name": "Spiced Cider",
+      "style": "Cider",
       "brewery": "Slake Cider",
       "breweryLocation": "McMinnville, OR",
       "tap": 20,
