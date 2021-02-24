@@ -318,7 +318,7 @@
     {
       "name": "Head Full of Hops and Dreams",
       "style": "NW IPA",
-      "tap": 4,
+      "tap": 18,
       "prices": [
         {
           "size":"pint",
@@ -332,15 +332,35 @@
         }
       ],
       "abv": 6.5,
-      "ibu": 58,
+      "ibu": 56,
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
-      "name": "Barrel Aged Jonagold",
-      "style": "Cider",
-      "brewery": "Bull Run Cider",
-      "breweryLocation": "Forest Grove, OR",
+      "name": "Head Full of Hops and Dreams v2",
+      "style": "NW IPA",
       "tap": 19,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.5,
+      "ibu": 56,
+      "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
+    },
+    {
+      "name": "Honeycrisp",
+      "style": "Cider",
+      "brewery": "19 Acres",
+      "breweryLocation": "Sherwood, OR",
+      "tap": 21,
       "prices": [
         {
           "size":"glass",
@@ -350,7 +370,24 @@
       ],
       "abv": 6.9,
       "ibu": 0,
-      "description": "Cider infused with various NW sourced berries."
+      "description": "Straightforward Apple-centric cider with a perfect level of sweetness."
+    },
+    {
+      "name": "2019 Estate",
+      "style": "Cider",
+      "brewery": "Bull Run Cider",
+      "breweryLocation": "Forest Grove, OR",
+      "tap": 22,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 6.9,
+      "ibu": 0,
+      "description": "Dry, artfully crafted cider from the 2019 apple harvest, aged to perfection."
     },
     {
       "name": "Cydonia Cider",
@@ -367,7 +404,7 @@
       ],
       "abv":6.5,
       "ibu": 0,
-      "description": "."
+      "description": "Quince infused cider"
     }
   ]
 }
