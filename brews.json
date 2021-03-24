@@ -60,9 +60,9 @@
       "ibu": 24,
       "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
-        {
-      "name": "Kate's Nutty Shutdown Brown",
-      "style": "Canadian Brown",
+    {
+      "name": "Head Full of Hops and Dreams v2",
+      "style": "NW IPA",
       "tap": 4,
       "prices": [
         {
@@ -76,9 +76,9 @@
           "value":4
         }
       ],
-      "abv": 6,
-      "ibu": 35,
-      "description": "An Owed to the Service Industry, this ale blends strong caramelized malts with other darker varietals for that perfect balance between sweet and bitter."
+      "abv": 6.5,
+      "ibu": 56,
+      "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
       "name": "Bet it all on Red",
@@ -316,8 +316,8 @@
       "description": "Vanilla and caramel round out this smooth high gravity beer."
     },
     {
-      "name": "Head Full of Hops and Dreams v2",
-      "style": "NW IPA",
+      "name": "Kate's Nutty Shutdown Brown",
+      "style": "Canadian Brown",
       "tap": 19,
       "prices": [
         {
@@ -331,9 +331,9 @@
           "value":4
         }
       ],
-      "abv": 6.5,
-      "ibu": 56,
-      "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
+      "abv": 6,
+      "ibu": 35,
+      "description": "An Owed to the Service Industry, this ale blends strong caramelized malts with other darker varietals for that perfect balance between sweet and bitter."
     },
     {
       "name": "Stout Scout Stout",
