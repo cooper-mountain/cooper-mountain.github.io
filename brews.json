@@ -120,6 +120,22 @@
       "ibu": 15,
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
+
+    {
+      "name": "On the Dubbel",
+      "style": "Belgian-style Dubbel",
+      "tap": 7,
+      "prices": [
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":6
+        }
+      ],
+      "abv": 6,
+      "ibu": 30,
+      "description": "The in-between beer in any Belgian lineup, this malt forward brown ale is absolutely overrun with fruity esters blended with MFB Carmelized Munich Malts."
+    },
     {
       "name": "Ginger Soul",
       "style": "Belgian-style Saison",
