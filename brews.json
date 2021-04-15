@@ -167,28 +167,8 @@
       "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
     },
     {
-      "name": "A Better Name than Coffee Brown",
-      "style": "American Brown with Cold Brew Coffee",
-      "tap": 10,
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
-        }
-      ],
-      "abv": 5.2,
-      "ibu": 68,
-      "description": "Coffee blend chosen just to compliment this American Brown, with a deliciously velvety texture."
-    },
-    {
       "name": "Sneaky Fox",
-      "style": "Imperial IPA",
+      "style": "Triple IPA",
       "tap": 11,
       "prices": [
         {
@@ -222,8 +202,8 @@
       "description": "A pumped up version of our traditional ESB, fermented warm to produce additional fruity esters and fantastic character. This drinks a little like a Belgian Dark Strong, but not quite so heavy, and not quite so dark."
     },
     {
-      "name": "Winey the Elder",
-      "style": "Red Wine Barrel aged Cranberry Imperial Stout",
+      "name": "BA Hand Turkey Brown",
+      "style": "Bull Run Bourbon Barrel aged Brown Ale",
       "tap": 13,
       "prices": [
         {
