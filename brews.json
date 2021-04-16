@@ -101,8 +101,8 @@
       "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
     },
     {
-      "name": "Brew Looks Like a Hazy",
-      "style": "Bavarian Hefeweizen",
+      "name": "All That is Gold Does Not Bitter",
+      "style": "Belgian-style Blonde",
       "tap": 6,
       "prices": [
         {
@@ -116,9 +116,9 @@
           "value":4
         }
       ],
-      "abv": 5.4,
-      "ibu": 15,
-      "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
+      "abv": 6.2,
+      "ibu": 23,
+      "description": "This is the result of our long search for the perfect balance of hops, yeast, and malt. Easy drinking but very expressive of all 3 disciplines."
     },
 
     {
@@ -167,6 +167,26 @@
       "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
     },
     {
+      "name": "BA Hand Turkey Brown",
+      "style": "Bull Run Bourbon Barrel aged Brown Ale",
+      "tap": 10,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 8.5,
+      "ibu": 28,
+      "description": "This one has been in storage for 2 years, just waiting for the right time to share it with our favorite die hard fans. The cranberry tartness serves to blend the red wine notes into the hearty malts of our Imperial Stout recipe."
+    },
+    {
       "name": "Sneaky Fox",
       "style": "Triple IPA",
       "tap": 11,
@@ -202,24 +222,24 @@
       "description": "A pumped up version of our traditional ESB, fermented warm to produce additional fruity esters and fantastic character. This drinks a little like a Belgian Dark Strong, but not quite so heavy, and not quite so dark."
     },
     {
-      "name": "BA Hand Turkey Brown",
-      "style": "Bull Run Bourbon Barrel aged Brown Ale",
+      "name": "Brew Looks Like a Hazy",
+      "style": "Bavarian Hefeweizen",
       "tap": 13,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":4
         }
       ],
-      "abv": 8.5,
-      "ibu": 28,
-      "description": "This one has been in storage for 2 years, just waiting for the right time to share it with our favorite die hard fans. The cranberry tartness serves to blend the red wine notes into the hearty malts of our Imperial Stout recipe."
+      "abv": 5.4,
+      "ibu": 15,
+      "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
       "name": "Johann Sebastian Doppelbock",
