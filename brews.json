@@ -61,7 +61,7 @@
       "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
     },
     {
-      "name": "Head Full of Hops and Dreams v2",
+      "name": "Head Full of Hops and Dreams",
       "style": "NW IPA",
       "tap": 4,
       "prices": [
@@ -99,9 +99,9 @@
       "abv": 5.5,
       "ibu": 28,
       "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
-    },
+    },   
     {
-      "name": "All That is Gold Does Not Bitter",
+      "name": "Goldilocks",
       "style": "Belgian-style Blonde",
       "tap": 6,
       "prices": [
@@ -120,7 +120,6 @@
       "ibu": 23,
       "description": "This is the result of our long search for the perfect balance of hops, yeast, and malt. Easy drinking but very expressive of all 3 disciplines."
     },
-
     {
       "name": "On the Dubbel",
       "style": "Belgian-style Dubbel",
@@ -199,27 +198,27 @@
       ],
       "abv": 10.24,
       "ibu": 116,
-      "description": "High gravity and heavy hops make this a hard hitting IPA."
+      "description": "High gravity and heavy hops make this a hard hitting Triple IPA."
     },
     {
-      "name": "Holiday Excess-B",
-      "style": "Winter Warmer",
+      "name": "All That is Gold Does Not Bitter",
+      "style": "English Best/Special Bitter",
       "tap": 12,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
-      	  "size":"glass",
-      	  "type":"REGULAR",
-      	  "value":4
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
         }
       ],
-      "abv": 7.0,
-      "ibu": 40,
-      "description": "A pumped up version of our traditional ESB, fermented warm to produce additional fruity esters and fantastic character. This drinks a little like a Belgian Dark Strong, but not quite so heavy, and not quite so dark."
+      "abv": 5.5,
+      "ibu": 23,
+      "description": "We've added our favoritee French MFB Crystal Munich malts to UK Pearl to carry this traditional English pale beyond the standard level of complexity."
     },
     {
       "name": "Brew Looks Like a Hazy",
@@ -242,14 +241,14 @@
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
-      "name": "Johann Sebastian Doppelbock",
-      "style": "German Doppelbock",
+      "name": "The Black Prince of Wells",
+      "style": "Cascadian Dark Ale",
       "tap": 14,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
@@ -258,8 +257,8 @@
         }
       ],
       "abv": 6.8,
-      "ibu": 22,
-      "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
+      "ibu": 65,
+      "description": ""
     },
     {
       "name": "Dry-Hopped Pacific Amber",
@@ -310,6 +309,26 @@
       "abv": 10.2,
       "ibu": 68,
       "description": "Vanilla and caramel round out this smooth high gravity beer."
+    },
+    {
+      "name": "Johann Sebastian Doppelbock",
+      "style": "German Doppelbock",
+      "tap": 18,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":4
+        }
+      ],
+      "abv": 6.8,
+      "ibu": 22,
+      "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
     },
     {
       "name": "Kate's Nutty Shutdown Brown",
