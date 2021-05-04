@@ -16,19 +16,17 @@ function renderHeaderAndFooter() {
     let header = document.createElement('header');
     header.innerHTML = `
          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="/"><img width="200" src="/images/logo_inverted.png" /></a>>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                      ${pages.map(elm =>
-                        `<li class="nav-item">
-                            <a class="nav-link  ${window.location.pathname === elm[1] ? 'active' : ''}" href="${elm[1]}">${elm[0]}</a>
-                        </li>`).join('')}
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="/"><img width="200" src="/images/logo_inverted.png" /></a>>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  ${pages.map(elm =>
+                    `<li class="nav-item">
+                        <a class="nav-link  ${window.location.pathname === elm[1] ? 'active' : ''}" href="${elm[1]}">${elm[0]}</a>
+                    </li>`).join('')}
+                </ul>
             </div>
         </nav>
         `;
