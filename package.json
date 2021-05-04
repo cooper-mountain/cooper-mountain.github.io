@@ -1,0 +1,22 @@
+{
+  "name": "cooper-mountain.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooper-mountain/cooper-mountain.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cooper-mountain/cooper-mountain.github.io/issues"
+  },
+  "homepage": "https://github.com/cooper-mountain/cooper-mountain.github.io#readme",
+  "dependencies": {
+    "quagga": "^0.12.1"
+  }
+}

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Cambo);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 body {
     background-color: #444444;
@@ -22,7 +23,7 @@ a:hover {
 /* Header */
 
 header {
-    height: 300px;
+    height: 200px;
     background-size: cover;
     position: relative;
     display: flex;
