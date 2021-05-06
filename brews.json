@@ -81,26 +81,6 @@
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
-      "name": "Bet it all on Red",
-      "style": "Irish-style Red",
-      "tap": 5,
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
-        }
-      ],
-      "abv": 5.5,
-      "ibu": 28,
-      "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
-    },   
-    {
       "name": "Goldilocks",
       "style": "Belgian-style Blonde",
       "tap": 6,
@@ -136,19 +116,24 @@
       "description": "The in-between beer in any Belgian lineup, this malt forward brown ale is absolutely overrun with fruity esters blended with MFB Carmelized Munich Malts."
     },
     {
-      "name": "Ginger Soul",
-      "style": "Belgian-style Saison",
-      "tap": 8,
+      "name": "Brew Looks Like a Hazy",
+      "style": "Bavarian Hefeweizen",
+      "tap": 13,
       "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":5
+        },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":6
+          "value":4
         }
       ],
-      "abv": 6,
-      "ibu": 30,
-      "description": "Based on the famed Saison Dupont yeast strain with a high percentage of wheat malt for extra body to balance against the power of the Ginger."
+      "abv": 5.4,
+      "ibu": 15,
+      "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
       "name": "Tripel Trouble",
@@ -183,7 +168,7 @@
       ],
       "abv": 8.5,
       "ibu": 28,
-      "description": "This one has been in storage for 2 years, just waiting for the right time to share it with our favorite die hard fans. The cranberry tartness serves to blend the red wine notes into the hearty malts of our Imperial Stout recipe."
+      "description": ""
     },
     {
       "name": "Sneaky Fox",
@@ -221,8 +206,8 @@
       "description": "We've added our favoritee French MFB Crystal Munich malts to UK Pearl to carry this traditional English pale beyond the standard level of complexity."
     },
     {
-      "name": "Brew Looks Like a Hazy",
-      "style": "Bavarian Hefeweizen",
+      "name": "Not All Those Who Wander Are Lost",
+      "style": "English IPA",
       "tap": 13,
       "prices": [
         {
@@ -236,9 +221,9 @@
           "value":4
         }
       ],
-      "abv": 5.4,
+      "abv": 6,
       "ibu": 15,
-      "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
+      "description": "Decidedly Mango on the nose (and tongue), this fruity-ester-driven old world IPA varietal is finished with Azacca hops that give it plenty of the IBUs you are looking for, but balanced with delicious carmel munich malts. It's Azacca-ly what you’re looking for!"
     },
     {
       "name": "The Black Prince of Wells",
@@ -331,9 +316,9 @@
       "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
     },
     {
-      "name": "Kate's Nutty Shutdown Brown",
-      "style": "Canadian Brown",
-      "tap": 19,
+      "name": "Bet it all on Red",
+      "style": "Irish-style Red",
+      "tap": 5,
       "prices": [
         {
           "size":"pint",
@@ -346,10 +331,10 @@
           "value":4
         }
       ],
-      "abv": 6,
-      "ibu": 35,
-      "description": "An Owed to the Service Industry, this ale blends strong caramelized malts with other darker varietals for that perfect balance between sweet and bitter."
-    },
+      "abv": 5.5,
+      "ibu": 28,
+      "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
+    },   
     {
       "name": "Stout Scout Stout",
       "style": "",
