@@ -41,8 +41,8 @@
       "description": "An American Cream Ale with Mandarina Bavaria hops and Valencia Orange Peel contributing a distinct orange aroma and character."
     },
     {
-      "name": "Legend of the Lost Golden",
-      "style": "Golden",
+      "name": "Kolsch you Bee My Neighbor",
+      "style": "Kolsch",
       "tap": 3,
       "prices": [
         {
@@ -58,7 +58,7 @@
       ],
       "abv": 5.5,
       "ibu": 24,
-      "description": "Classic golden in body, but finished with hops traditionally used in a Hazy for that super fruity aroma and finishing flavor."
+      "description": "Brewed with a healthy helping of Briess American Honey Malt, this German delight is meant to be shared with the folks you’ve been missing for the last year."
     },
     {
       "name": "Head Full of Hops and Dreams",
@@ -79,6 +79,26 @@
       "abv": 6.5,
       "ibu": 56,
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
+    },
+    {
+      "name": "Feelin' Helles Good",
+      "style": "German-style Brunette Helles Lager",
+      "tap": 5,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 6.2,
+      "ibu": 23,
+      "description": "This is the result of our long search for the perfect balance of hops, yeast, and malt. Easy drinking but very expressive of all 3 disciplines."
     },
     {
       "name": "Goldilocks",
@@ -143,7 +163,7 @@
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":6
         }
       ],
       "abv": 8,
@@ -151,8 +171,8 @@
       "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
     },
     {
-      "name": "BA Hand Turkey Brown",
-      "style": "Bull Run Bourbon Barrel aged Brown Ale",
+      "name": "Kate's Wake Up Call",
+      "style": "Cold Brewed Coffee Brown",
       "tap": 10,
       "prices": [
         {
@@ -166,9 +186,9 @@
           "value":5
         }
       ],
-      "abv": 8.5,
-      "ibu": 28,
-      "description": ""
+      "abv": 5.8,
+      "ibu": 35,
+      "description": "Using a one-off North Fresh Coffee Roasters creation, this cold brewed coffee amazement helps accentuate the chocolate notes in our brown ale."
     },
     {
       "name": "Sneaky Fox",
@@ -193,12 +213,12 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 5.5,
@@ -213,12 +233,12 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 6,
@@ -233,12 +253,12 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 6.8,
@@ -308,7 +328,7 @@
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 6.8,
@@ -316,24 +336,24 @@
       "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
     },
     {
-      "name": "Bet it all on Red",
-      "style": "Irish-style Red",
+      "name": "Strawberry Swing",
+      "style": "German-style Kolsch",
       "tap": 5,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
-      "abv": 5.5,
-      "ibu": 28,
-      "description": "Following the irish tradition of a dry finish, but with layer upon layer of caramel malts that unfold as you sip."
+      "abv": 5.3,
+      "ibu": 24,
+      "description": "Autumn says that a Strawberry Kolsch is the best beer she’s ever had, so we took a crack at recreating this gem using Oregon Puree’s renowned Strawberry."
     },   
     {
       "name": "Stout Scout Stout",
@@ -368,7 +388,7 @@
           "value":6
         }
       ],
-      "abv": 6.9,
+      "abv": 6,
       "ibu": 0,
       "description": "Straightforward Apple-centric cider with a perfect level of sweetness."
     },
@@ -385,9 +405,9 @@
           "value":6
         }
       ],
-      "abv": 6.9,
+      "abv": 6.8,
       "ibu": 0,
-      "description": "Dry, artfully crafted cider from the 2019 apple harvest, aged to perfection."
+      "description": "Dry, artfully crafted cider from the 2019 apple harvest, aged to perfection for nearly a year."
     }
   ]
 }
