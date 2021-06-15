@@ -60,6 +60,7 @@ footer {
     font-size: .8em;
     margin: 40px;
     color: #999;
+    flex-wrap: wrap;
 }
 
 footer .content {
