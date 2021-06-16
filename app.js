@@ -32,10 +32,19 @@ function renderHeaderAndFooter() {
         `;
 
     let footer = document.createElement('footer');
-    footer.innerHTML = `
+    footer.innerHTML = ` 
         <div class="footercolumn">
-            &copy;Cooper Mountain Ale Works 2021
-        </div>    
+            <h5>Hours</h5>
+            <table style="border-spacing: 10px 0px;   border-collapse: separate;" align="center">
+                <tr><td>Sunday</td><td>12pm - 8pm</td></tr>
+                <tr><td>Monday</td><td>Closed</td></tr>
+                <tr><td>Tuesday</td><td>12pm - 8pm</td></tr>
+                <tr><td>Wednesday</td><td>12pm - 8pm</td></tr>
+                <tr><td>Thursday</td><td>12pm - 9pm</td></tr>
+                <tr><td>Friday</td><td>12pm - 9pm</td></tr>
+                <tr><td>Saturday</td><td>12pm - 9pm</td></tr>
+            </table>
+        </div>
         <div class="footercolumn">
             <p style="color: #FFFFFF; display: flex">
                 <a style="color: #FFFFFF; flex: 1" href="https://www.facebook.com/CooperMountainAleWorks/" target="_blank"><i class="fab fa-fw fa-facebook-square fa-2x"></i></a>
@@ -48,17 +57,9 @@ function renderHeaderAndFooter() {
            
         </div>    
         <div class="footercolumn">
-            <h5>Hours&nbsp;&nbsp;&nbsp;</h5>
-            <table style="border-spacing: 10px 0px;   border-collapse: separate;" align="center">
-                <tr><td>Sunday</td><td>12pm - 8pm</td></tr>
-                <tr><td>Monday</td><td>Closed</td></tr>
-                <tr><td>Tuesday</td><td>12pm - 8pm</td></tr>
-                <tr><td>Wednesday</td><td>12pm - 8pm</td></tr>
-                <tr><td>Thursday</td><td>12pm - 9pm</td></tr>
-                <tr><td>Friday</td><td>12pm - 9pm</td></tr>
-                <tr><td>Saturday</td><td>12pm - 9pm</td></tr>
-            </table>
-        </div>`;
+            &copy;Cooper Mountain Ale Works 2021
+        </div>   
+        `;
 
     document.body.prepend(header);
     document.body.appendChild(footer);
