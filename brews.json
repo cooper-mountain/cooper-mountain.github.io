@@ -266,8 +266,8 @@
       "description": ""
     },
     {
-      "name": "Dry-Hopped Pacific Amber",
-      "style": "Hoppy Red/Amber",
+      "name": "Bet It All On Red",
+      "style": "Irish-style Red Ale",
       "tap": 15,
       "prices": [
         {
@@ -281,9 +281,9 @@
           "value":4
         }
       ],
-      "abv": 6.2,
-      "ibu": 45,
-      "description": "A well-balanced red with NW hop flair."
+      "abv": 5.5,
+      "ibu": 30,
+      "description": "Gobs of caramel malts. Absolute gobs. Rich, layered, deliecious."
     },
     {
       "name": "100 Shilling in the Name Of",
