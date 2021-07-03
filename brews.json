@@ -286,9 +286,9 @@
       "description": "Gobs of caramel malts. Absolute gobs. Rich, layered, deliecious."
     },
     {
-      "name": "100 Shilling in the Name Of",
-      "style": "Scottish Export (100 Shilling)",
-      "tap": 16,
+      "name": "All That is Gold Does Not Bitter",
+      "style": "English Best/Special Bitter",
+      "tap": 12,
       "prices": [
         {
           "size":"glass",
@@ -296,9 +296,9 @@
           "value":6
         }
       ],
-      "abv": 6.8,
-      "ibu": 30,
-      "description": "Complex layers of carmelized malts paired with a small amount of peated malt for a perfectly balanced Scottish that you can actually have more than one of!"
+      "abv": 5.5,
+      "ibu": 23,
+      "description": "We've added our favorite French/Belgian MFB Crystal Munich malts to UK Pearl to carry this traditional English pale beyond the standard level of complexity."
     },
     {
       "name": "Draft Master Mike",
