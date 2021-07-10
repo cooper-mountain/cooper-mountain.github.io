@@ -336,24 +336,24 @@
       "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
     },
     {
-      "name": "Strawberry Swing",
-      "style": "German-style Kolsch",
+      "name": "Legend of the Lost Golden",
+      "style": "American Golden Ale",
       "tap": 5,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":4
         }
       ],
-      "abv": 5.3,
-      "ibu": 24,
-      "description": "Autumn says that a Strawberry Kolsch is the best beer she’s ever had, so we took a crack at recreating this gem using Oregon Puree’s renowned Strawberry."
+      "abv": 5.5,
+      "ibu": 22,
+      "description": "Traditional Golden Ale with a little Whirlpool hop flair"
     },   
     {
       "name": "Stout Scout Stout",
