@@ -21,24 +21,24 @@
       "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
     },
     {
-      "name": "If Only I Had Seen This Coming",
-      "style": "Cream Ale",
+      "name": "Beauty and the Bees",
+      "style": "Vienna Lager with Raw Honey",
       "tap": 2,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
-      "abv": 5.8,
+      "abv": 5.2,
       "ibu": 18,
-      "description": "An American Cream Ale with Mandarina Bavaria hops and Valencia Orange Peel contributing a distinct orange aroma and character."
+      "description": "German lager yeast paired with beautiful Pilsner malts, and local raw honey from Sauvie Island."
     },
     {
       "name": "Kolsch you Bee My Neighbor",
