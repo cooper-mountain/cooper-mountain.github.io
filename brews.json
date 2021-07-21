@@ -388,7 +388,7 @@
       "description": "Straightforward Apple-centric cider with a perfect level of sweetness."
     },
     {
-      "name": "2019 Estate",
+      "name": "Strawberry Fields",
       "style": "Cider",
       "brewery": "Bull Run Cider",
       "breweryLocation": "Forest Grove, OR",
@@ -402,7 +402,7 @@
       ],
       "abv": 6.8,
       "ibu": 0,
-      "description": "Dry, artfully crafted cider from the 2019 apple harvest, aged to perfection for nearly a year."
+      "description": "Strawberry infused, naturally fermented cider."
     }
   ]
 }
