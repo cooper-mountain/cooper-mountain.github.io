@@ -48,12 +48,12 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 5.5,
@@ -81,8 +81,8 @@
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
-      "name": "Feelin' Helles Good",
-      "style": "German-style Brunette Helles Lager",
+      "name": "Marzen To The Beat Of My Own Drum",
+      "style": "German-style Marzen/Festbier",
       "tap": 5,
       "prices": [
         {
@@ -198,7 +198,7 @@
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":6
         }
       ],
       "abv": 10.24,
@@ -273,12 +273,12 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 5.5,
@@ -316,29 +316,24 @@
       "description": "Vanilla and caramel round out this smooth high gravity beer."
     },
     {
-      "name": "Johann Sebastian Doppelbock",
-      "style": "German Doppelbock",
+      "name": "Ginger Soul",
+      "style": "Belgian-style Saison",
       "tap": 18,
       "prices": [
         {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":6
-        },
-        {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":6
         }
       ],
-      "abv": 6.8,
-      "ibu": 22,
-      "description": "Based on a the profile and specs of a prominent authentic German Doppelbock, this dark, malty german lager has all of the chocolate and caramel notes you could ask for."
+      "abv": 6,
+      "ibu": 30,
+      "description": "Based on the famed Saison Dupont yeast strain with a high percentage of wheat malt for extra body to balance against the power of the Ginger."
     },
     {
       "name": "Legend of the Lost Golden",
       "style": "American Golden Ale",
-      "tap": 5,
+      "tap": 19,
       "prices": [
         {
           "size":"pint",
