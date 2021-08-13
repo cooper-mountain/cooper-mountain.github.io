@@ -156,19 +156,19 @@
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
-      "name": "Tripel Trouble",
-      "style": "Belgian-Syle Tripel",
+      "name": "Wheat and the Giant Peach",
+      "style": "American Wheat with Peaches",
       "tap": 9,
       "prices": [
         {
-          "size":"glass",
+          "size":"pint",
           "type":"REGULAR",
           "value":6
         }
       ],
-      "abv": 8,
+      "abv": 5.8,
       "ibu": 22,
-      "description": "Traditionally spiced with sweet orange peel, coriander, and star anise that each make their appearance in gentle layers as you sip."
+      "description": ""
     },
     {
       "name": "Kate's Wake Up Call",
@@ -226,8 +226,8 @@
       "description": "An American Amber, dry-hopped with Australian Enigma, and fruited with Raspberry in secondary. Super refreshing!"
     },
     {
-      "name": "Not All Those Who Wander Are Lost",
-      "style": "English IPA",
+      "name": "Thistle While You Work",
+      "style": "Scottish Export",
       "tap": 13,
       "prices": [
         {
@@ -242,8 +242,8 @@
         }
       ],
       "abv": 6,
-      "ibu": 15,
-      "description": "Decidedly Mango on the nose (and tongue), this fruity-ester-driven old world IPA varietal is finished with Azacca hops that give it plenty of the IBUs you are looking for, but balanced with delicious carmel munich malts. It's Azacca-ly what you’re looking for!"
+      "ibu": 30,
+      "description": ""
     },
     {
       "name": "The Black Prince of Wells",
@@ -301,8 +301,8 @@
       "description": "We've added our favorite French/Belgian MFB Crystal Munich malts to UK Pearl to carry this traditional English pale beyond the standard level of complexity."
     },
     {
-      "name": "Draft Master Mike",
-      "style": "Aged Barley Wine",
+      "name": "BABA O'Reily,
+      "style": "Barrel-Aged Imperial Brown",
       "tap": 17,
       "prices": [
         {
@@ -311,9 +311,9 @@
           "value":6
         }
       ],
-      "abv": 10.2,
-      "ibu": 68,
-      "description": "Vanilla and caramel round out this smooth high gravity beer."
+      "abv": 9,
+      "ibu": 40,
+      "description": ""
     },
     {
       "name": "Ginger Soul",
