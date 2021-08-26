@@ -61,8 +61,8 @@
       "description": "Brewed with a healthy helping of Briess American Honey Malt, this German delight is meant to be shared with the folks you’ve been missing for the last year."
     },
     {
-      "name": "Head Full of Hops and Dreams",
-      "style": "NW IPA",
+      "name": "A Sky Full Of Comets",
+      "style": "IPA",
       "tap": 4,
       "prices": [
         {
@@ -76,8 +76,8 @@
           "value":4
         }
       ],
-      "abv": 6.5,
-      "ibu": 56,
+      "abv": 6.6,
+      "ibu": 55,
       "description": " A strong back of tongue bitterness with heaps of late addition hops for citrus influenced flavor and aroma."
     },
     {
