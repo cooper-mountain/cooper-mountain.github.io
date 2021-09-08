@@ -1,26 +1,6 @@
 {
   "brews": [
     {
-      "name": "Week Sauce",
-      "style": "Blonde Ale",
-      "tap": 1,
-      "prices": [
-        {
-          "size":"pint",
-          "type":"REGULAR",
-          "value":5
-        },
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":4
-        }
-      ],
-      "abv": 5.0,
-      "ibu": 15,
-      "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
-    },
-    {
       "name": "Beauty and the Bees",
       "style": "Vienna Lager with Raw Honey",
       "tap": 2,
@@ -39,6 +19,26 @@
       "abv": 5.2,
       "ibu": 18,
       "description": "German lager yeast paired with beautiful Pilsner malts, and local raw honey from Sauvie Island."
+    },
+    {
+      "name": "Feelin' Helles Good",
+      "style": "Helles Lager",
+      "tap": 1,
+      "prices": [
+        {
+          "size":"pint",
+          "type":"REGULAR",
+          "value":6
+        },
+        {
+          "size":"glass",
+          "type":"REGULAR",
+          "value":5
+        }
+      ],
+      "abv": 5.0,
+      "ibu": 18,
+      "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
     },
     {
       "name": "Kolsch you Bee My Neighbor",
@@ -101,24 +101,24 @@
       "description": "This is the result of our long search for the perfect balance of hops, yeast, and malt. Easy drinking but very expressive of all 3 disciplines."
     },
     {
-      "name": "Goldilocks",
-      "style": "Belgian-style Blonde",
+      "name": "Bridges to Bavaria",
+      "style": "Bavarian Hefeweizen",
       "tap": 6,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
-      "abv": 6.2,
-      "ibu": 23,
-      "description": "This is the result of our long search for the perfect balance of hops, yeast, and malt. Easy drinking but very expressive of all 3 disciplines."
+      "abv": 5.2,
+      "ibu": 17,
+      "description": ""
     },
     {
       "name": "On the Dubbel",
@@ -156,8 +156,8 @@
       "description": "Light in body without being thin, this traditional Bavarian hefe is influenced primarly by clove flavors rather than banana."
     },
     {
-      "name": "Wheat and the Giant Peach",
-      "style": "American Wheat with Peaches",
+      "name": "Tripel Trouble, Y'all",
+      "style": "Belgian Style Tripel",
       "tap": 9,
       "prices": [
         {
@@ -166,13 +166,13 @@
           "value":6
         }
       ],
-      "abv": 5.8,
-      "ibu": 22,
+      "abv": 8.0,
+      "ibu": 30,
       "description": ""
     },
     {
-      "name": "Kate's Wake Up Call",
-      "style": "Cold Brewed Coffee Brown",
+      "name": "If Only I Had Seen This Coming",
+      "style": "Cream Ale with Orange Peel",
       "tap": 10,
       "prices": [
         {
@@ -188,7 +188,7 @@
       ],
       "abv": 5.8,
       "ibu": 35,
-      "description": "Using a one-off North Fresh Coffee Roasters creation, this cold brewed coffee amazement helps accentuate the chocolate notes in our brown ale."
+      "description": ""
     },
     {
       "name": "Sneaky Fox",
