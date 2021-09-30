@@ -1,24 +1,24 @@
 {
   "brews": [
     {
-      "name": "Beauty and the Bees",
-      "style": "Vienna Lager with Raw Honey",
+      "name": "Week Sauce",
+      "style": "American Blonde",
       "tap": 2,
       "prices": [
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":6
+          "value":5
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":5
+          "value":4
         }
       ],
-      "abv": 5.2,
-      "ibu": 18,
-      "description": "German lager yeast paired with beautiful Pilsner malts, and local raw honey from Sauvie Island."
+      "abv": 5.0,
+      "ibu": 16,
+      "description": ""
     },
     {
       "name": "Feelin' Helles Good",
@@ -266,8 +266,8 @@
       "description": ""
     },
     {
-      "name": "Bet It All On Red",
-      "style": "Irish-style Red Ale",
+      "name": "GuestAlt",
+      "style": "German-Style Altbier",
       "tap": 15,
       "prices": [
         {
@@ -281,9 +281,9 @@
           "value":5
         }
       ],
-      "abv": 5.5,
-      "ibu": 30,
-      "description": "Gobs of caramel malts. Absolute gobs. Rich, layered, deliecious."
+      "abv": 5.8,
+      "ibu": 22,
+      "description": ""
     },
     {
       "name": "All That is Gold Does Not Bitter",
