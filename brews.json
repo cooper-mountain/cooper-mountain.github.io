@@ -68,16 +68,16 @@
         {
           "size":"pint",
           "type":"REGULAR",
-          "value":5
+          "value":6
         },
         {
           "size":"glass",
           "type":"REGULAR",
-          "value":4
+          "value":5
         }
       ],
       "abv": 6.6,
-      "ibu": 55,
+      "ibu": 58,
       "description": ""
     },
     {
@@ -101,9 +101,9 @@
       "description": ""
     },
     {
-      "name": "Bridges to Bavaria",
-      "style": "Bavarian Hefeweizen",
-      "tap": 6,
+      "name": "Stout Scout Stout",
+      "style": "",
+      "tap": 20,
       "prices": [
         {
           "size":"pint",
@@ -116,9 +116,9 @@
           "value":5
         }
       ],
-      "abv": 5.2,
-      "ibu": 17,
-      "description": ""
+      "abv": 5.8,
+      "ibu": 30,
+      "description": "This rich and roasty tasting stout will give a slight flavor of cocoa. Best enjoyed with your friends on a cold afternoon while trying to solve all the worlds problems."
     },
     {
       "name": "On the Dubbel",
@@ -356,7 +356,7 @@
       "description": "Traditional Golden Ale with a little Whirlpool hop flair"
     },   
     {
-      "name": "Stout Scout Stout",
+      "name": "Saved By The Buoyancy of Citrus",
       "style": "",
       "tap": 20,
       "prices": [
@@ -371,15 +371,15 @@
           "value":5
         }
       ],
-      "abv": 5.8,
-      "ibu": 30,
-      "description": "This rich and roasty tasting stout will give a slight flavor of cocoa. Best enjoyed with your friends on a cold afternoon while trying to solve all the worlds problems."
+      "abv": 6,
+      "ibu": 38,
+      "description": ""
     },
     {
-      "name": "Honeycrisp",
+      "name": "Sunnyside",
       "style": "Cider",
-      "brewery": "19 Acres",
-      "breweryLocation": "Sherwood, OR",
+      "brewery": "Happy Valley",
+      "breweryLocation": "Clackamas, OR",
       "tap": 21,
       "prices": [
         {
@@ -393,7 +393,7 @@
       "description": "Straightforward Apple-centric cider with a perfect level of sweetness."
     },
     {
-      "name": "Strawberry Fields",
+      "name": "Pumpkin Spice",
       "style": "Cider",
       "brewery": "Bull Run Cider",
       "breweryLocation": "Forest Grove, OR",
