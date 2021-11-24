@@ -171,8 +171,8 @@
       "description": ""
     },
     {
-      "name": "If Only I Had Seen This Coming",
-      "style": "Cream Ale with Orange Peel",
+      "name": "Vanilla Heist",
+      "style": "Porter with Mexican Vanilla",
       "tap": 10,
       "prices": [
         {
@@ -187,7 +187,7 @@
         }
       ],
       "abv": 5.8,
-      "ibu": 35,
+      "ibu": 30,
       "description": ""
     },
     {
@@ -353,7 +353,7 @@
       ],
       "abv": 5.5,
       "ibu": 22,
-      "description": "Traditional Golden Ale with a little Whirlpool hop flair"
+      "description": "Traditional Golden Ale whirlpool hop flair"
     },   
     {
       "name": "Saved By The Buoyancy of Citrus",
