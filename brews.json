@@ -191,7 +191,7 @@
       "description": ""
     },
     {
-      "name": "Sneaky Fox",
+      "name": "Power of the Imperial",
       "style": "Triple IPA",
       "tap": 11,
       "prices": [
@@ -201,8 +201,8 @@
           "value":6
         }
       ],
-      "abv": 10.24,
-      "ibu": 116,
+      "abv": 9,
+      "ibu": 85,
       "description": "High gravity and heavy hops make this a hard hitting Triple IPA."
     },
     {
