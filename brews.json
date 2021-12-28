@@ -321,8 +321,8 @@
       "description": ""
     },
     {
-      "name": "Pumpkin Porter",
-      "style": "London Porter with Pumpkin and Spices",
+      "name": "A Chai-ly Brown Christmas Ale",
+      "style": "American Brown infused with Chai spices",
       "tap": 18,
       "prices": [
         {
@@ -376,7 +376,7 @@
       "description": ""
     },
     {
-      "name": "Sunnyside",
+      "name": "Mt. Tabor",
       "style": "Cider",
       "brewery": "Happy Valley",
       "breweryLocation": "Clackamas, OR",
@@ -393,10 +393,10 @@
       "description": "Straightforward Apple-centric cider with a perfect level of sweetness."
     },
     {
-      "name": "Pumpkin Spice",
+      "name": "Honey Pear",
       "style": "Cider",
-      "brewery": "Bull Run Cider",
-      "breweryLocation": "Forest Grove, OR",
+      "brewery": "",
+      "breweryLocation": "",
       "tap": 22,
       "prices": [
         {
@@ -407,7 +407,7 @@
       ],
       "abv": 6.8,
       "ibu": 0,
-      "description": "Strawberry infused, naturally fermented cider."
+      "description": "Pears, honey. On the sweeter side."
     }
   ]
 }
