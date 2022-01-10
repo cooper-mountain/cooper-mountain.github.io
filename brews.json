@@ -21,8 +21,8 @@
       "description": ""
     },
     {
-      "name": "Feelin' Helles Good",
-      "style": "Helles Lager",
+      "name": "Pils-boro Hops",
+      "style": "Dry-hopped Pilsner",
       "tap": 1,
       "prices": [
         {
@@ -36,9 +36,9 @@
           "value":5
         }
       ],
-      "abv": 5.0,
-      "ibu": 18,
-      "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
+      "abv": 4.8,
+      "ibu": 30,
+      "description": ""
     },
     {
       "name": "Strawberry Swing",
