@@ -171,8 +171,8 @@
       "description": ""
     },
     {
-      "name": "Vanilla Heist",
-      "style": "Porter with Mexican Vanilla",
+      "name": "Mole, Mole, Mole, Mole",
+      "style": "Stout with Mole Spices",
       "tap": 10,
       "prices": [
         {
@@ -186,7 +186,7 @@
           "value":5
         }
       ],
-      "abv": 5.8,
+      "abv": 6.5,
       "ibu": 30,
       "description": ""
     },
