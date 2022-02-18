@@ -41,8 +41,8 @@
       "description": ""
     },
     {
-      "name": "Porter We're Going Down Swingin'",
-      "style": "Robust Porter",
+      "name": "Malto Suave",
+      "style": "Amber Mexican Lager",
       "tap": 3,
       "prices": [
         {
@@ -57,7 +57,7 @@
         }
       ],
       "abv": 5.3,
-      "ibu": 24,
+      "ibu": 25,
       "description": ""
     },
     {
@@ -101,9 +101,9 @@
       "description": ""
     },
     {
-      "name": "Stout Scout Stout",
-      "style": "",
-      "tap": 20,
+      "name": "Porter We're Going Down Swingin'",
+      "style": "Robust Porter",
+      "tap": 3,
       "prices": [
         {
           "size":"pint",
@@ -116,9 +116,9 @@
           "value":5
         }
       ],
-      "abv": 5.8,
-      "ibu": 30,
-      "description": "This rich and roasty tasting stout will give a slight flavor of cocoa. Best enjoyed with your friends on a cold afternoon while trying to solve all the worlds problems."
+      "abv": 5.3,
+      "ibu": 24,
+      "description": ""
     },
     {
       "name": "On the Dubbel",
