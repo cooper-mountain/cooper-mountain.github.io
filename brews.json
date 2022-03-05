@@ -246,8 +246,8 @@
       "description": ""
     },
     {
-      "name": "The Black Prince of Wells",
-      "style": "Cascadian Dark Ale",
+      "name": "Stout Scout Stout",
+      "style": "Oatmeal Stout",
       "tap": 14,
       "prices": [
         {
@@ -261,8 +261,8 @@
           "value":5
         }
       ],
-      "abv": 6.8,
-      "ibu": 65,
+      "abv": 6.0,
+      "ibu": 30,
       "description": ""
     },
     {
@@ -306,22 +306,7 @@
       "description": ""
     },
     {
-      "name": "BABA O'Reily",
-      "style": "Barrel-Aged Imperial Brown",
-      "tap": 17,
-      "prices": [
-        {
-          "size":"glass",
-          "type":"REGULAR",
-          "value":6
-        }
-      ],
-      "abv": 9,
-      "ibu": 40,
-      "description": ""
-    },
-    {
-      "name": "A Chai-ly Brown Christmas Ale",
+      "name": "Chai-ly Brown",
       "style": "American Brown infused with Chai spices",
       "tap": 18,
       "prices": [
@@ -336,8 +321,8 @@
       "description": ""
     },
     {
-      "name": "Feelin' Helles Good",
-      "style": "Helles Lager",
+      "name": "Ginger Soul",
+      "style": "Belgian-Style Saison infused with Ginger",
       "tap": 1,
       "prices": [
         {
@@ -351,9 +336,9 @@
           "value":5
         }
       ],
-      "abv": 5.0,
-      "ibu": 18,
-      "description": "This lager-esque beer is also low calorie, without sacrificing flavor."
+      "abv": 6.0,
+      "ibu": 22,
+      "description": ""
     },  
     {
       "name": "Saved By The Buoyancy of Citrus",
